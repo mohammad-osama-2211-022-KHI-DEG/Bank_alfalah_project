@@ -146,8 +146,6 @@ for track_id, duration in durations.items():
 
         'Timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         'Track_ID': track_id,
-        # 'Entry_Time': entry_time,
-        # 'Exit_Time': exit_time,
         'Duration': duration
     })
 
