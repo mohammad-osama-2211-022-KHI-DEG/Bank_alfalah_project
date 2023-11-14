@@ -2,7 +2,6 @@ import cv2
 from ultralytics import YOLO
 from collections import defaultdict
 import csv
-import time
 from datetime import datetime
 import firebase_admin
 from firebase_admin import credentials
@@ -12,7 +11,7 @@ from firebase_admin import firestore
 model = YOLO('best.pt')
 
 # Load video
-video_path = 'cc.mp4'
+video_path = 'NVR_ch8_main_20230920150003_20230920160003.mp4'
 cap = cv2.VideoCapture(video_path)
 
 # Store the track history
@@ -42,6 +41,16 @@ max_wait_id = None
 # Variables for total waiting time and total number of customers
 total_waiting_time = 0
 total_customers = 0
+
+# Initialize Firebase Admin SDK
+cred = credentials.Certificate("smilefirebase.json")
+firebase_admin.initialize_app(cred)
+
+# Initialize Firestore
+db = firestore.client()
+
+# Dictionary to store data for each ID
+customer_data = {}
 
 # Loop through the video frames
 while cap.isOpened():
@@ -116,7 +125,7 @@ while cap.isOpened():
         # Calculate and print the average waiting time
         if total_customers > 0:
             avg_waiting_time = total_waiting_time / total_customers
-            average_waiting_time = avg_waiting_time/60
+            average_waiting_time = avg_waiting_time / 60
             print(f"Average waiting time: {average_waiting_time:.2f} seconds")
         else:
             print("No customers detected.")
@@ -133,28 +142,21 @@ while cap.isOpened():
 for track_id, duration in durations.items():
     entry_time = entry_times.get(track_id, 0)
     exit_time = entry_time + duration
+
+    # Write to CSV file
     csv_writer.writerow([track_id, entry_time, exit_time, duration])
 
+    # Add data to customer_data dictionary
+    customer_data[str(track_id)] = {
+        'Entry_Time': entry_time,
+        'Exit_Time': exit_time,
+        'Duration': duration
+    }
 
-# # Initialize Firebase Admin SDK
-cred = credentials.Certificate("smilefirebase.json")
-firebase_admin.initialize_app(cred)
+# Add a single document to Firestore containing all customer data
+# db.collection('Customer_waiting_time').document('all_customers_waiting').set(customer_data)
+db.collection('Customer_waiting_time').add(customer_data)
 
-#Initialize Firestore
-db = firestore.client()
-
-# Finally, add the total happy count to Firestore
-doc_ref = db.collection('Customer_waiting_time').add({
-     'Timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-    #  'total_happy_count': happy_count
-     'Highest_waiting_time': f" {max_wait_time} sec ",
-     'Highest_waiting_time_ID': f"ID: {max_wait_id}",
-     'Total_customers':total_customers,
-     'Average_waiting_time':f"{average_waiting_time} sec",
-
-
-
- })
 # Release the video capture object and close the display window
 csv_file.close()
 cap.release()
