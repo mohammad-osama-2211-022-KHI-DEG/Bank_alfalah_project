@@ -49,9 +49,6 @@ firebase_admin.initialize_app(cred)
 # Initialize Firestore
 db = firestore.client()
 
-# Dictionary to store data for each ID
-customer_data = {}
-
 # Loop through the video frames
 while cap.isOpened():
     # Read a frame from the video
@@ -142,20 +139,15 @@ while cap.isOpened():
 for track_id, duration in durations.items():
     entry_time = entry_times.get(track_id, 0)
     exit_time = entry_time + duration
-
-    # Write to CSV file
     csv_writer.writerow([track_id, entry_time, exit_time, duration])
 
-    # Add data to customer_data dictionary
-    customer_data[str(track_id)] = {
-        'Entry_Time': entry_time,
-        'Exit_Time': exit_time,
-        'Duration': duration
-    }
+    # Add individual documents for each tracked object to Firestore
+    doc_ref = db.collection('Customer_waiting_time').add({
 
-# Add a single document to Firestore containing all customer data
-# db.collection('Customer_waiting_time').document('all_customers_waiting').set(customer_data)
-db.collection('Customer_waiting_time').add(customer_data)
+        'Timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        'Track_ID': track_id,
+        'Duration': duration
+    })
 
 # Release the video capture object and close the display window
 csv_file.close()
