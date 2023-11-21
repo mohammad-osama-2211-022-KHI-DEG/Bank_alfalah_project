@@ -5,6 +5,18 @@ import cv2
 import numpy as np
 from mtcnn.mtcnn import MTCNN
 from collections import defaultdict
+from datetime import datetime
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import firestore
+
+# Initialize Firebase Admin SDK
+cred = credentials.Certificate("smilefirebase.json")
+firebase_admin.initialize_app(cred)
+
+#Initialize Firestore
+db = firestore.client()
+alert_trigger_interval = 2
 
 # Load the pre-trained MTCNN model for face detection
 detector = MTCNN()
@@ -20,7 +32,7 @@ window_height = 600
 
 
 # cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture("./NVR_ch8_main_20230920150003_20230920160003.mp4")
+cap = cv2.VideoCapture("smile.mp4")
 
 # Initialize a dictionary to store previous emotions for each unique face
 previous_emotions = {}
@@ -94,22 +106,51 @@ while True:
             if previous_emotions[assigned_id] != 'Happy' and label == 'Happy':
                 person_happy_count[assigned_id] += 1
                 happy_count += 1
+
+                # Check if the happy count exceeds the trigger interval
+                if happy_count % alert_trigger_interval == 0:
+                    # Perform an action to generate an alert (for example, displaying a message)
+                    alert_message = f"Alert: Happy count reached {happy_count}!"
+                    print(alert_message)
+                    doc_ref = db.collection('logs').add({
+                      
+                        'total_happy_count': happy_count,
+                        'time': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                        'use_case': 'happy_count' ,
+                        'branch':'jinnah_avenue'
+
+                        })
+                    # You can customize this part to trigger any desired action for the alert
                 # Reset the count to 0 after incrementing
                 person_happy_count[assigned_id] = 0
 
             # Update the previous emotion for this person
             previous_emotions[assigned_id] = label
+    
 
     # Resize the frame to the desired window size
     frame = cv2.resize(frame, (window_width, window_height))
 
     # Display the resized frame
     cv2.putText(frame, f"Happy Count: {happy_count}", (20, 20), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
-
+    
     cv2.imshow('Emotion Detector', frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
+
+try:
+        doc_ref_smiles = db.collection('smiles_collection').add({
+        'branch': "jinnah_avenue",
+        'city': "islamabad",
+        'country': "pakistan",
+        'total_happy_count': happy_count,
+        'timeStamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    })
+        print("Data added to smiles_collection successfully.")
+except Exception as e:
+         print(f"Error adding data to smiles_collection: {e}")
 
 cap.release()
 cv2.destroyAllWindows()
