@@ -11,6 +11,8 @@ last_detected_times = {}
 id_threshold = 1 # generate !!ALERT!! on terminal when id disappeared
 
 current_face_id = 0
+
+
 # Function to generate unique face_id
 def generate_unique_id():
     global current_face_id
@@ -64,7 +66,7 @@ frame_width = int(video_capture.get(cv2.CAP_PROP_FRAME_WIDTH))
 frame_height = int(video_capture.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('[desired_output_path]/output.avi', fourcc, fps, (frame_width, frame_height))
+out = cv2.VideoWriter('[video_output_path].avi', fourcc, fps, (frame_width, frame_height))
 while True:
     ret, frame = video_capture.read()
     # Break the loop if the video has ended
@@ -77,38 +79,43 @@ while True:
     print(f'current_frame_of_video: {current_frame}')
     current_time = current_frame/fps
     print(f'current_time_of_video: {current_time}')
+    # Convert the face region to RGB (required for face_recognition)
+    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     for face in faces:
         # Extract face coordinates
         x, y, width, height = face['box']
-        face_region = frame[y:y+height, x:x+width]
-        # Convert the face region to RGB (required for face_recognition)
-        rgb_face_region = cv2.cvtColor(face_region, cv2.COLOR_BGR2RGB)
+        confidence = face['confidence']
+
         # Create face embeddings from current frame
-        encodings = face_recognition.face_encodings(rgb_face_region)
-        if len(encodings) > 0:
-            encoding = encodings[0]
-            matches = face_recognition.compare_faces(list(face_encodings_dict.values()), encoding)
-            if any(matches):
-                # Face recognized
-                match_index = matches.index(True)
-                recognized_person_id = list(face_encodings_dict.keys())[match_index]
-                cv2.rectangle(frame, (x, y), (x+width, y+height), (0, 255, 0), 2)
-                cv2.putText(frame, recognized_person_id, (x + 6, y + height - 6), font, 1.5, (255, 255, 255), 3)
-                update_face_details(recognized_person_id,  video_capture.get(cv2.CAP_PROP_POS_FRAMES), fps)
-                # Display elapsed time on the video
-                elapsed_time = face_details_dict[recognized_person_id]['total_duration']
-                print(f'elapsed time: {elapsed_time}')
-                cv2.putText(frame, f"Time: {int(elapsed_time)}s", (x + 5, y + height + 60), font, 1.5, (255, 255, 255), 3)
-                face_id = recognized_person_id
-                time_since_last_detected = elapsed_time - prev_elapsed[face_id]
-                print(f'time difference: {time_since_last_detected}')
-                if time_since_last_detected > 1.0:
-                    face_details_dict[recognized_person_id]['total_duration'] = 0
-            else:
-                new_face_id = generate_unique_id()
-                cv2.rectangle(frame, (x, y), (x+width, y+height), (0, 0, 255), 2)
-                cv2.putText(frame, new_face_id, (x + 6, y + height - 6), font, 0.5, (255, 255, 255), 1)
-                update_face_encodings(encoding, new_face_id)
+        if confidence > 0.95:
+            encodings = face_recognition.face_encodings(rgb, [(y, x + width, y + height, x)], num_jitters=20)
+            if len(encodings) > 0:
+                encoding = encodings[0]
+                matches = face_recognition.compare_faces(list(face_encodings_dict.values()), encoding, tolerance=0.55)
+                if any(matches):
+                    # Face recognized
+                    match_index = matches.index(True)
+                    recognized_person_id = list(face_encodings_dict.keys())[match_index]
+                    cv2.rectangle(frame, (x, y), (x+width, y+height), (0, 100, 255), 4)
+                    cv2.putText(frame, recognized_person_id, (x + 6, y - 6), font, 0.5, (0, 0, 0), 8, cv2.LINE_AA)
+                    cv2.putText(frame, recognized_person_id, (x + 6, y - 6), font, 0.5, (255, 255, 255), 1)
+                    # cv2.putText(frame, "face_recognition", (x, y + height+ 120), font, 0.5, (255, 255, 255), 1)
+                    update_face_details(recognized_person_id,  video_capture.get(cv2.CAP_PROP_POS_FRAMES), fps)
+                    # Display elapsed time on the video
+                    elapsed_time = face_details_dict[recognized_person_id]['total_duration']
+                    print(f'elapsed time: {elapsed_time}')
+                    cv2.putText(frame, f"Time: {round(float(elapsed_time),2)}s", (x, y + height+10), font, 0.5, (0, 0, 0), 8, cv2.LINE_AA)
+                    cv2.putText(frame, f"Time: {round(float(elapsed_time),2)}s", (x, y + height+10), font, 0.5, (255, 255, 255), 1)
+                    face_id = recognized_person_id
+                    time_since_last_detected = elapsed_time - prev_elapsed[face_id]
+                    print(f'time difference: {time_since_last_detected}')
+                    if time_since_last_detected > 1.0:
+                        face_details_dict[recognized_person_id]['total_duration'] = 0
+                else:
+                    new_face_id = generate_unique_id()
+                    cv2.rectangle(frame, (x, y), (x+width, y+height), (0, 0, 255), 2)
+                    cv2.putText(frame, new_face_id, (x + 6, y + height - 6), font, 0.5, (255, 255, 255), 1)
+                    update_face_encodings(encoding, new_face_id)
 
     out.write(frame)
     cv2.imshow('Video', frame)
