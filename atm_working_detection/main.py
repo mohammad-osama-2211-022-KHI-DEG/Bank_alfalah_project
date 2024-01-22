@@ -5,11 +5,13 @@ import time
 import firebase_admin
 from firebase_admin import credentials, db
 
-# Initialize Firebase with your credentials and database URL
+# Initialize Firebase with credentials and database URL
 cred = credentials.Certificate("credentials.json")
 firebase_admin.initialize_app(cred, {"databaseURL": "https://test-3b45c-default-rtdb.firebaseio.com/"})
+ref = db.reference('/Complain-box & Telephone')
 ref2 = db.reference('/ATM Working Detection')
-# Function for the atm-card and cash detection
+
+# ATM functionality check 
 def detect_atm_usage(model_path, video_path, target_fps):
     model = YOLO(model_path)
     cap = cv2.VideoCapture(video_path)
@@ -18,6 +20,8 @@ def detect_atm_usage(model_path, video_path, target_fps):
     counter = 0
     count = 0
     atm_detected = False
+    total_working_count=0
+    total_notworking_count=0
 
     while cap.isOpened():
         success, frame = cap.read()
@@ -26,74 +30,109 @@ def detect_atm_usage(model_path, video_path, target_fps):
             print(f"Working with frame {frame_no}, no frame detected")
             break
         else:
-            # **ATM card and note detection logic**
             results = model.track(source=frame, show=True, project='./result', tracker="bytetrack.yaml", conf=0.4)
             a = None
             for result in results:
-                labels = result.boxes.data.cpu().numpy()
-                if len(labels) != 0 and atm_detected == False:
-                    a = labels[0]
-                    if atm_detected == False and a[-1] == 0 and a[-2] > 0.4:
+                class_name = result.boxes.cls.tolist()
+                conf_name = result.boxes.conf.tolist()
+                res = dict(zip(class_name, conf_name))
+                # check for complain-box and telephone
+                complainbox_telephone(class_name)
+                if len(res) != 0 and atm_detected == False:
+                    if atm_detected == False and 0.0 in class_name and res[0.0] >= 0.4:
                         print("ATM Card is Detected")
                         atm_detected = True
                         count = 0
                     else:
                         pass
-                elif len(labels) != 0 and atm_detected == True:
-                    a = labels[0]
-                    if a[-1] == 1 and a[-2] > 0.8:
-                        # print(labels)
+                elif len(res) != 0 and atm_detected == True:
+                    if 1.0 in class_name and res[1.0] >= 0.8:
                         print("Cash is Detected")
+                        # pushing data to db
                         time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                        new_data = {
-                            "Alert": "ATM is Working",
-                            "timestamp": time_now
-                        }
+                        alert = "ATM is Working"
+                        push_data_to_database(alert,time_now,ref2)
+                        total_working_count +=1
                         # Push data to the database
-                        ref2.push(new_data)
+                        db.reference("/Total successful transcation").set(total_working_count)
                         atm_detected = False
-                        # return "ATM is Working"
-                        # break
                     elif count >= 1000:
                         print("ATM detection timeout reached. Exiting...")
                         counter += 1
-                        push_data_to_database(counter)
+                        total_notworking_count +=1
+                        # Push data to the database
+                        db.reference("/Total Unsuccessful transcation").set(total_notworking_count)
+                        # Counting for 6 cash not detected
+                        if counter >= 6:
+                            time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                            alert = "ATM is not Working"
+                            push_data_to_database(alert,time_now,ref2)
+                            counter = 0
                         atm_detected = False
-                        # return "ATM is not Working"
                     else:
                         count +=1
                 elif atm_detected == True:
                     if count >= 1000:
                         print("ATM detection timeout reached. Exiting...")
                         counter += 1
-                        push_data_to_database(counter)
+                        total_notworking_count +=1
+                        # Push data to the database
+                        db.reference("/Total Unsuccessful transcation").set(total_notworking_count)
+                        # Counting for 6 cash not detected
+                        if counter >= 6:
+                            time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                            alert = "ATM is not Working"
+                            push_data_to_database(alert,time_now,ref2)
+                            counter = 0
                         atm_detected = False
                     else:
                         count +=1
                 else:
                     pass
+            else:
+                pass
+
             # Increment frame counter
         frame_no += 1
     # Release video capture
     cap.release()
-# ... (your push_data_to_database function)
-def push_data_to_database(counter):
-    time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    # Counting for 6 cash not detected
-    if counter >= 6:
-        # Your data to be added
-        new_data = {
-            "Alert": "ATM is not Working",
-            "timestamp": time_now
-        }
+
+# Check for complain-box and telephone
+def complainbox_telephone(class_name):
+    # Complain-box & Telephone are present
+    if 2.0 in class_name and 3.0 in class_name:
+        time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        alert = "Complain box & telephone found"
         # Push data to the database
-        
-        ref2.push(new_data)
-        counter = 0
+        push_data_to_database(alert,time_now,ref)
+    # Complain-box is present & Telephone is not present
+    elif 2.0 in class_name and 3.0 not in class_name:
+        time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        alert = "Complain box found & telephone not found"
+        # Push data to the database
+        push_data_to_database(alert,time_now,ref)
+    # Complain-box is not present & Telephone is present
+    elif 2.0 not in class_name and 3.0 in class_name:
+        time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        alert = "Complain box not found & telephone found"
+        # Push data to the database
+        push_data_to_database(alert,time_now,ref)
+    # Complain-box & Telephone are not present
+    elif 2.0 not in class_name and 3.0 not in class_name:
+        time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        alert = "Complain box & telephone not found"
+        # Push data to the database
+        push_data_to_database(alert,time_now,ref)    
+# Pushing data to database
+def push_data_to_database(alert,time_now,reff):
+    new_data = {
+        "Alert": alert,
+        "timestamp": time_now
+    }
+    reff.push(new_data)
 
-# Example usage (unchanged):
-model_path = 'atm_working.pt'
-video_path = "YouCut_20240114_230531505.mp4"
-target_fps = 8
-detect_atm_usage(model_path, video_path, target_fps)
-
+if __name__ == '__main__':
+    model_path = 'atm_functionality_best.pt'
+    video_path = "YouCut_20240114_230531505.mp4"
+    target_fps = 8
+    detect_atm_usage(model_path, video_path, target_fps)
