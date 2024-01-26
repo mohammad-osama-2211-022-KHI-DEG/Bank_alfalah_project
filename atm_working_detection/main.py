@@ -70,13 +70,14 @@ def detect_atm_usage(model_path, video_path, target_fps):
                         counter += 1
                         total_notworking_count +=1
                         # Counting for 6 cash not detected
-                        if counter >= 1:
+                        if counter >= 2:
                             workingStatus= False
                             counter = 0
                             timestamp = Time()
                             data = data_preparation(workingStatus,total_working_count,total_notworking_count,complaintBoxAvailable,telephoneAvailable,timestamp) 
                             response = requests.post(url, json=data, headers=headers)
                             print("Endpoint response status code:", response.status_code)
+                            Alert(timestamp)
                         atm_detected = False
                     else:
                         count +=1
@@ -86,13 +87,14 @@ def detect_atm_usage(model_path, video_path, target_fps):
                         counter += 1
                         total_notworking_count +=1
                         # Counting for 6 cash not detected
-                        if counter >= 1:
+                        if counter >= 2:
                             workingStatus= False
                             counter = 0
                             timestamp = Time()
                             data = data_preparation(workingStatus,total_working_count,total_notworking_count,complaintBoxAvailable,telephoneAvailable,timestamp)
                             response = requests.post(url, json=data, headers=headers)
                             print("Endpoint response status code:", response.status_code)
+                            Alert(timestamp)
                     
                         atm_detected = False
                     else:
@@ -143,6 +145,20 @@ def data_preparation(workingStatus,total_working_count,total_notworking_count,co
     "branch": "clifton"
     } 
     return data
+def Alert(timestamp):
+    url1 = 'http://13.235.71.140:5000/notification'
+    data = {
+        "timestamp": timestamp, 
+        "message": "atm_is_notworking",
+        "country": "pakistan",
+        "city": "karachi",
+        "branch": "clifton",
+        "usecase": "ATM_functionality",
+    }
+
+    db.reference("/alert").set(data)
+    response = requests.post(url=url1, json=data, headers=headers)
+    print("Endpoint response status code:", response.status_code)
 
 if __name__ == '__main__':
     model_path = 'atm_functionality_best.pt'
