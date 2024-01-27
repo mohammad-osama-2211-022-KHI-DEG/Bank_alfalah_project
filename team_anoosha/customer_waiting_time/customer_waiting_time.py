@@ -30,7 +30,6 @@ last_appearance_times = {}
 last_detected_times = {}
 current_face_id = 0
 prev_elapsed = {}
-cwt = {}
 
 # Define the font variable globally if it's used in multiple functions
 font = cv2.FONT_HERSHEY_DUPLEX
@@ -176,7 +175,7 @@ def check_and_generate_alerts(current_time):
             # Log the alert message
             logging.warning(f"\033[91mAlert for Face ID: {face_id}, Total Duration: {round(total_duration, 2)} seconds, Exit: {datetime.now(timezone(timedelta(hours=5))).strftime('%Y-%m-%dT%H:%M:%S%Z')}\033[0m")
 
-def process_faces(faces, frame, rgb, current_frame, fps, current_time):
+def process_faces(faces, frame, rgb, current_frame, fps):
     for face in faces:
         x, y, width, height = face['box']
         confidence = face['confidence']
@@ -215,7 +214,7 @@ def draw_unrecognized_face(frame, x, y, width, height, face_id):
     cv2.rectangle(frame, (x, y), (x+width, y+height), (0, 0, 255), 2)
     cv2.putText(frame, face_id, (x + 6, y + height - 6), font, 0.5, (255, 255, 255), 1)
 
-def display_elapsed_time(frame, x, y, width, height, face_id):
+def display_elapsed_time(frame, x, y, height, face_id):
     elapsed_time = face_details_dict[face_id]['total_duration']
     cv2.putText(frame, f"Time: {round(float(elapsed_time),2)}s", (x, y + height+10), font, 0.5, (0, 0, 0), 8, cv2.LINE_AA)
     cv2.putText(frame, f"Time: {round(float(elapsed_time),2)}s", (x, y + height+10), font, 0.5, (255, 255, 255), 1)
