@@ -1,0 +1,1363 @@
+2024-01-28 20:59:06,003 - INFO - frame_rate: 13.093
+2024-01-28 20:59:08,018 - INFO - current_frame_of_video: 1.0
+2024-01-28 20:59:08,018 - INFO - current_time_of_video: 0.08
+2024-01-28 20:59:11,403 - INFO - current_frame_of_video: 2.0
+2024-01-28 20:59:11,403 - INFO - current_time_of_video: 0.15
+2024-01-28 20:59:12,956 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 20:59:13,178 - DEBUG - http://13.235.71.140:5000 "POST /customer-wait-time HTTP/1.1" 200 None
+2024-01-28 20:59:13,179 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T15:59:12Z","status":"PRESENT","arrivalDateTime":"2024-01-28T15:59:12Z","departureDateTime":null}
+2024-01-28 20:59:13,180 - INFO - elapsed time: 0
+2024-01-28 20:59:13,181 - INFO - time difference: 0
+2024-01-28 20:59:16,653 - INFO - current_frame_of_video: 3.0
+2024-01-28 20:59:16,653 - INFO - current_time_of_video: 0.23
+2024-01-28 20:59:18,291 - INFO - face id: 1
+2024-01-28 20:59:18,292 - INFO - prev elapsed time: 0
+2024-01-28 20:59:18,294 - INFO - elapsed time: 0.08
+2024-01-28 20:59:18,294 - INFO - time difference: 0.08
+2024-01-28 20:59:20,111 - INFO - current_frame_of_video: 4.0
+2024-01-28 20:59:20,111 - INFO - current_time_of_video: 0.31
+2024-01-28 20:59:23,163 - INFO - current_frame_of_video: 5.0
+2024-01-28 20:59:23,163 - INFO - current_time_of_video: 0.38
+2024-01-28 20:59:24,551 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 20:59:24,708 - DEBUG - http://13.235.71.140:5000 "POST /customer-wait-time HTTP/1.1" 200 None
+2024-01-28 20:59:24,709 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T15:59:24Z","status":"PRESENT","arrivalDateTime":"2024-01-28T15:59:24Z","departureDateTime":null}
+2024-01-28 20:59:24,711 - INFO - elapsed time: 0
+2024-01-28 20:59:24,711 - INFO - time difference: 0
+2024-01-28 20:59:25,822 - INFO - face id: 1
+2024-01-28 20:59:25,822 - INFO - prev elapsed time: 0.08
+2024-01-28 20:59:25,828 - INFO - elapsed time: 0.23
+2024-01-28 20:59:25,828 - INFO - time difference: 0.15
+2024-01-28 20:59:27,354 - INFO - current_frame_of_video: 6.0
+2024-01-28 20:59:27,354 - INFO - current_time_of_video: 0.46
+2024-01-28 20:59:28,891 - INFO - face id: 1
+2024-01-28 20:59:28,892 - INFO - prev elapsed time: 0.23
+2024-01-28 20:59:28,893 - INFO - elapsed time: 0.31
+2024-01-28 20:59:28,894 - INFO - time difference: 0.08
+2024-01-28 20:59:30,646 - INFO - face id: 3
+2024-01-28 20:59:30,649 - INFO - prev elapsed time: 0
+2024-01-28 20:59:30,651 - INFO - elapsed time: 0.08
+2024-01-28 20:59:30,651 - INFO - time difference: 0.08
+2024-01-28 20:59:32,365 - INFO - current_frame_of_video: 7.0
+2024-01-28 20:59:32,365 - INFO - current_time_of_video: 0.53
+2024-01-28 20:59:34,209 - INFO - face id: 1
+2024-01-28 20:59:34,209 - INFO - prev elapsed time: 0.31
+2024-01-28 20:59:34,211 - INFO - elapsed time: 0.38
+2024-01-28 20:59:34,211 - INFO - time difference: 0.08
+2024-01-28 20:59:36,381 - INFO - face id: 3
+2024-01-28 20:59:36,382 - INFO - prev elapsed time: 0.08
+2024-01-28 20:59:36,384 - INFO - elapsed time: 0.15
+2024-01-28 20:59:36,384 - INFO - time difference: 0.08
+2024-01-28 20:59:38,118 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 20:59:38,321 - DEBUG - http://13.235.71.140:5000 "POST /customer-wait-time HTTP/1.1" 200 None
+2024-01-28 20:59:38,322 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T15:59:38Z","status":"PRESENT","arrivalDateTime":"2024-01-28T15:59:38Z","departureDateTime":null}
+2024-01-28 20:59:38,323 - INFO - elapsed time: 0
+2024-01-28 20:59:38,323 - INFO - time difference: 0
+2024-01-28 20:59:40,147 - INFO - current_frame_of_video: 8.0
+2024-01-28 20:59:40,147 - INFO - current_time_of_video: 0.61
+2024-01-28 20:59:41,456 - INFO - face id: 1
+2024-01-28 20:59:41,456 - INFO - prev elapsed time: 0.38
+2024-01-28 20:59:41,458 - INFO - elapsed time: 0.46
+2024-01-28 20:59:41,458 - INFO - time difference: 0.08
+2024-01-28 20:59:43,031 - INFO - face id: 3
+2024-01-28 20:59:43,032 - INFO - prev elapsed time: 0.15
+2024-01-28 20:59:43,033 - INFO - elapsed time: 0.23
+2024-01-28 20:59:43,033 - INFO - time difference: 0.08
+2024-01-28 20:59:44,375 - INFO - current_frame_of_video: 9.0
+2024-01-28 20:59:44,375 - INFO - current_time_of_video: 0.69
+2024-01-28 20:59:45,713 - INFO - face id: 1
+2024-01-28 20:59:45,713 - INFO - prev elapsed time: 0.46
+2024-01-28 20:59:45,715 - INFO - elapsed time: 0.53
+2024-01-28 20:59:45,715 - INFO - time difference: 0.08
+2024-01-28 20:59:46,646 - INFO - face id: 3
+2024-01-28 20:59:46,646 - INFO - prev elapsed time: 0.23
+2024-01-28 20:59:46,648 - INFO - elapsed time: 0.31
+2024-01-28 20:59:46,648 - INFO - time difference: 0.08
+2024-01-28 20:59:48,135 - INFO - current_frame_of_video: 10.0
+2024-01-28 20:59:48,135 - INFO - current_time_of_video: 0.76
+2024-01-28 20:59:48,959 - INFO - face id: 1
+2024-01-28 20:59:48,959 - INFO - prev elapsed time: 0.53
+2024-01-28 20:59:48,961 - INFO - elapsed time: 0.61
+2024-01-28 20:59:48,961 - INFO - time difference: 0.08
+2024-01-28 20:59:49,588 - INFO - face id: 3
+2024-01-28 20:59:49,589 - INFO - prev elapsed time: 0.31
+2024-01-28 20:59:49,591 - INFO - elapsed time: 0.38
+2024-01-28 20:59:49,591 - INFO - time difference: 0.08
+2024-01-28 20:59:49,616 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 20:59:49,838 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 20:59:49,839 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T15:59:49Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T15:59:49Z"}
+2024-01-28 20:59:49,840 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0 seconds, Exit: 2024-01-28T20:59:49UTC+05:00[0m
+2024-01-28 20:59:50,693 - INFO - current_frame_of_video: 11.0
+2024-01-28 20:59:50,693 - INFO - current_time_of_video: 0.84
+2024-01-28 20:59:51,351 - INFO - face id: 1
+2024-01-28 20:59:51,351 - INFO - prev elapsed time: 0.61
+2024-01-28 20:59:51,353 - INFO - elapsed time: 0.69
+2024-01-28 20:59:51,353 - INFO - time difference: 0.08
+2024-01-28 20:59:51,379 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 20:59:51,582 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 20:59:51,583 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T15:59:51Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T15:59:51Z"}
+2024-01-28 20:59:51,583 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0 seconds, Exit: 2024-01-28T20:59:51UTC+05:00[0m
+2024-01-28 20:59:52,489 - INFO - current_frame_of_video: 12.0
+2024-01-28 20:59:52,489 - INFO - current_time_of_video: 0.92
+2024-01-28 20:59:53,222 - INFO - face id: 1
+2024-01-28 20:59:53,223 - INFO - prev elapsed time: 0.69
+2024-01-28 20:59:53,224 - INFO - elapsed time: 0.76
+2024-01-28 20:59:53,225 - INFO - time difference: 0.08
+2024-01-28 20:59:53,929 - INFO - face id: 3
+2024-01-28 20:59:53,930 - INFO - prev elapsed time: 0.38
+2024-01-28 20:59:53,932 - INFO - elapsed time: 0.53
+2024-01-28 20:59:53,932 - INFO - time difference: 0.15
+2024-01-28 20:59:53,953 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 20:59:54,225 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 20:59:54,225 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T15:59:53Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T15:59:53Z"}
+2024-01-28 20:59:54,226 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0 seconds, Exit: 2024-01-28T20:59:54UTC+05:00[0m
+2024-01-28 20:59:55,121 - INFO - current_frame_of_video: 13.0
+2024-01-28 20:59:55,121 - INFO - current_time_of_video: 0.99
+2024-01-28 20:59:55,754 - INFO - face id: 1
+2024-01-28 20:59:55,754 - INFO - prev elapsed time: 0.76
+2024-01-28 20:59:55,755 - INFO - elapsed time: 0.84
+2024-01-28 20:59:55,755 - INFO - time difference: 0.08
+2024-01-28 20:59:55,771 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 20:59:56,027 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 20:59:56,028 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T15:59:55Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T15:59:55Z"}
+2024-01-28 20:59:56,028 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0 seconds, Exit: 2024-01-28T20:59:56UTC+05:00[0m
+2024-01-28 20:59:56,848 - INFO - current_frame_of_video: 14.0
+2024-01-28 20:59:56,848 - INFO - current_time_of_video: 1.07
+2024-01-28 20:59:57,858 - INFO - face id: 1
+2024-01-28 20:59:57,858 - INFO - prev elapsed time: 0.84
+2024-01-28 20:59:57,860 - INFO - elapsed time: 0.92
+2024-01-28 20:59:57,860 - INFO - time difference: 0.08
+2024-01-28 20:59:57,882 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 20:59:58,185 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 20:59:58,186 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T15:59:57Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T15:59:57Z"}
+2024-01-28 20:59:58,186 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0 seconds, Exit: 2024-01-28T20:59:58UTC+05:00[0m
+2024-01-28 20:59:58,958 - INFO - current_frame_of_video: 15.0
+2024-01-28 20:59:58,958 - INFO - current_time_of_video: 1.15
+2024-01-28 20:59:59,691 - INFO - face id: 1
+2024-01-28 20:59:59,692 - INFO - prev elapsed time: 0.92
+2024-01-28 20:59:59,694 - INFO - elapsed time: 0.99
+2024-01-28 20:59:59,694 - INFO - time difference: 0.08
+2024-01-28 20:59:59,717 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 20:59:59,977 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 20:59:59,978 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T15:59:59Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T15:59:59Z"}
+2024-01-28 20:59:59,978 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T20:59:59UTC+05:00[0m
+2024-01-28 20:59:59,980 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:00,187 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:00,188 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T15:59:59Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T15:59:59Z"}
+2024-01-28 21:00:00,188 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0 seconds, Exit: 2024-01-28T21:00:00UTC+05:00[0m
+2024-01-28 21:00:00,940 - INFO - current_frame_of_video: 16.0
+2024-01-28 21:00:00,940 - INFO - current_time_of_video: 1.22
+2024-01-28 21:00:01,611 - INFO - face id: 1
+2024-01-28 21:00:01,611 - INFO - prev elapsed time: 0.99
+2024-01-28 21:00:01,613 - INFO - elapsed time: 1.07
+2024-01-28 21:00:01,613 - INFO - time difference: 0.08
+2024-01-28 21:00:01,631 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:01,921 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:01,922 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:01Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:01Z"}
+2024-01-28 21:00:01,922 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:01UTC+05:00[0m
+2024-01-28 21:00:01,924 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:02,126 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:02,127 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:01Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:01Z"}
+2024-01-28 21:00:02,127 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0 seconds, Exit: 2024-01-28T21:00:02UTC+05:00[0m
+2024-01-28 21:00:03,039 - INFO - current_frame_of_video: 17.0
+2024-01-28 21:00:03,039 - INFO - current_time_of_video: 1.3
+2024-01-28 21:00:04,313 - INFO - face id: 1
+2024-01-28 21:00:04,313 - INFO - prev elapsed time: 1.07
+2024-01-28 21:00:04,315 - INFO - elapsed time: 1.15
+2024-01-28 21:00:04,315 - INFO - time difference: 0.08
+2024-01-28 21:00:04,334 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:04,583 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:04,584 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:04Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:04Z"}
+2024-01-28 21:00:04,584 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:04UTC+05:00[0m
+2024-01-28 21:00:04,584 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:04,787 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:04,788 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:04Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:04Z"}
+2024-01-28 21:00:04,788 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0 seconds, Exit: 2024-01-28T21:00:04UTC+05:00[0m
+2024-01-28 21:00:05,604 - INFO - current_frame_of_video: 18.0
+2024-01-28 21:00:05,604 - INFO - current_time_of_video: 1.37
+2024-01-28 21:00:06,331 - INFO - face id: 1
+2024-01-28 21:00:06,332 - INFO - prev elapsed time: 1.15
+2024-01-28 21:00:06,333 - INFO - elapsed time: 1.22
+2024-01-28 21:00:06,333 - INFO - time difference: 0.08
+2024-01-28 21:00:06,354 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:06,589 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:06,589 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:06Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:06Z"}
+2024-01-28 21:00:06,590 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:06UTC+05:00[0m
+2024-01-28 21:00:06,591 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:06,733 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:06,734 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:06Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:06Z"}
+2024-01-28 21:00:06,735 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0 seconds, Exit: 2024-01-28T21:00:06UTC+05:00[0m
+2024-01-28 21:00:07,564 - INFO - current_frame_of_video: 19.0
+2024-01-28 21:00:07,564 - INFO - current_time_of_video: 1.45
+2024-01-28 21:00:08,370 - INFO - face id: 1
+2024-01-28 21:00:08,371 - INFO - prev elapsed time: 1.22
+2024-01-28 21:00:08,372 - INFO - elapsed time: 1.3
+2024-01-28 21:00:08,372 - INFO - time difference: 0.08
+2024-01-28 21:00:08,960 - INFO - face id: 2
+2024-01-28 21:00:08,960 - INFO - prev elapsed time: 0
+2024-01-28 21:00:08,962 - INFO - elapsed time: 0.92
+2024-01-28 21:00:08,962 - INFO - time difference: 0.92
+2024-01-28 21:00:08,984 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:09,301 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:09,302 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:08Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:08Z"}
+2024-01-28 21:00:09,303 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:09UTC+05:00[0m
+2024-01-28 21:00:10,068 - INFO - current_frame_of_video: 20.0
+2024-01-28 21:00:10,068 - INFO - current_time_of_video: 1.53
+2024-01-28 21:00:10,697 - INFO - face id: 2
+2024-01-28 21:00:10,697 - INFO - prev elapsed time: 0.92
+2024-01-28 21:00:10,699 - INFO - elapsed time: 0.99
+2024-01-28 21:00:10,699 - INFO - time difference: 0.08
+2024-01-28 21:00:11,228 - INFO - face id: 1
+2024-01-28 21:00:11,229 - INFO - prev elapsed time: 1.3
+2024-01-28 21:00:11,230 - INFO - elapsed time: 1.37
+2024-01-28 21:00:11,230 - INFO - time difference: 0.08
+2024-01-28 21:00:11,251 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:13,800 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:13,801 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:11Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:11Z"}
+2024-01-28 21:00:13,801 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:13UTC+05:00[0m
+2024-01-28 21:00:14,506 - INFO - current_frame_of_video: 21.0
+2024-01-28 21:00:14,506 - INFO - current_time_of_video: 1.6
+2024-01-28 21:00:15,075 - INFO - face id: 1
+2024-01-28 21:00:15,075 - INFO - prev elapsed time: 1.37
+2024-01-28 21:00:15,077 - INFO - elapsed time: 1.45
+2024-01-28 21:00:15,077 - INFO - time difference: 0.08
+2024-01-28 21:00:15,097 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:16,359 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:16,461 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:15Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:15Z"}
+2024-01-28 21:00:16,461 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:16UTC+05:00[0m
+2024-01-28 21:00:17,187 - INFO - current_frame_of_video: 22.0
+2024-01-28 21:00:17,187 - INFO - current_time_of_video: 1.68
+2024-01-28 21:00:17,925 - INFO - face id: 1
+2024-01-28 21:00:17,925 - INFO - prev elapsed time: 1.45
+2024-01-28 21:00:17,927 - INFO - elapsed time: 1.53
+2024-01-28 21:00:17,927 - INFO - time difference: 0.08
+2024-01-28 21:00:17,951 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:18,204 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:18,205 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:17Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:17Z"}
+2024-01-28 21:00:18,205 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:18UTC+05:00[0m
+2024-01-28 21:00:18,930 - INFO - current_frame_of_video: 23.0
+2024-01-28 21:00:18,930 - INFO - current_time_of_video: 1.76
+2024-01-28 21:00:19,472 - INFO - face id: 1
+2024-01-28 21:00:19,472 - INFO - prev elapsed time: 1.53
+2024-01-28 21:00:19,474 - INFO - elapsed time: 1.6
+2024-01-28 21:00:19,474 - INFO - time difference: 0.08
+2024-01-28 21:00:19,494 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:19,848 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:19,849 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:19Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:19Z"}
+2024-01-28 21:00:19,849 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:19UTC+05:00[0m
+2024-01-28 21:00:19,851 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:20,050 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:20,051 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:19Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:19Z"}
+2024-01-28 21:00:20,051 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0.99 seconds, Exit: 2024-01-28T21:00:20UTC+05:00[0m
+2024-01-28 21:00:20,795 - INFO - current_frame_of_video: 24.0
+2024-01-28 21:00:20,796 - INFO - current_time_of_video: 1.83
+2024-01-28 21:00:21,524 - INFO - face id: 1
+2024-01-28 21:00:21,524 - INFO - prev elapsed time: 1.6
+2024-01-28 21:00:21,526 - INFO - elapsed time: 1.68
+2024-01-28 21:00:21,526 - INFO - time difference: 0.08
+2024-01-28 21:00:21,546 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:21,786 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:21,787 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:21Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:21Z"}
+2024-01-28 21:00:21,787 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:21UTC+05:00[0m
+2024-01-28 21:00:21,789 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:21,991 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:22,400 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:21Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:21Z"}
+2024-01-28 21:00:22,401 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0.99 seconds, Exit: 2024-01-28T21:00:22UTC+05:00[0m
+2024-01-28 21:00:23,179 - INFO - current_frame_of_video: 25.0
+2024-01-28 21:00:23,179 - INFO - current_time_of_video: 1.91
+2024-01-28 21:00:23,664 - INFO - face id: 1
+2024-01-28 21:00:23,665 - INFO - prev elapsed time: 1.68
+2024-01-28 21:00:23,666 - INFO - elapsed time: 1.76
+2024-01-28 21:00:23,667 - INFO - time difference: 0.08
+2024-01-28 21:00:23,689 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:23,903 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:23,908 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:23Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:23Z"}
+2024-01-28 21:00:23,908 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:23UTC+05:00[0m
+2024-01-28 21:00:23,909 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:24,863 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:24,864 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:23Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:23Z"}
+2024-01-28 21:00:24,865 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0.99 seconds, Exit: 2024-01-28T21:00:24UTC+05:00[0m
+2024-01-28 21:00:25,546 - INFO - current_frame_of_video: 26.0
+2024-01-28 21:00:25,546 - INFO - current_time_of_video: 1.99
+2024-01-28 21:00:26,038 - INFO - face id: 1
+2024-01-28 21:00:26,038 - INFO - prev elapsed time: 1.76
+2024-01-28 21:00:26,040 - INFO - elapsed time: 1.83
+2024-01-28 21:00:26,040 - INFO - time difference: 0.08
+2024-01-28 21:00:26,060 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:26,292 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:26,293 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:26Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:26Z"}
+2024-01-28 21:00:26,293 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:26UTC+05:00[0m
+2024-01-28 21:00:26,295 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:27,213 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:27,214 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:26Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:26Z"}
+2024-01-28 21:00:27,214 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0.99 seconds, Exit: 2024-01-28T21:00:27UTC+05:00[0m
+2024-01-28 21:00:27,913 - INFO - current_frame_of_video: 27.0
+2024-01-28 21:00:27,913 - INFO - current_time_of_video: 2.06
+2024-01-28 21:00:28,755 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:29,160 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:29,161 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:28Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:28Z"}
+2024-01-28 21:00:29,161 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:29UTC+05:00[0m
+2024-01-28 21:00:29,162 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:29,365 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:29,366 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:29Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:29Z"}
+2024-01-28 21:00:29,366 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0.99 seconds, Exit: 2024-01-28T21:00:29UTC+05:00[0m
+2024-01-28 21:00:30,046 - INFO - current_frame_of_video: 28.0
+2024-01-28 21:00:30,046 - INFO - current_time_of_video: 2.14
+2024-01-28 21:00:30,056 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:30,287 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:30,288 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:30Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:30Z"}
+2024-01-28 21:00:30,289 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:30UTC+05:00[0m
+2024-01-28 21:00:30,290 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:30,594 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:30,595 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:30Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:30Z"}
+2024-01-28 21:00:30,596 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0.99 seconds, Exit: 2024-01-28T21:00:30UTC+05:00[0m
+2024-01-28 21:00:31,282 - INFO - current_frame_of_video: 29.0
+2024-01-28 21:00:31,283 - INFO - current_time_of_video: 2.21
+2024-01-28 21:00:31,293 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:31,513 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:31,514 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:31Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:31Z"}
+2024-01-28 21:00:31,514 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:31UTC+05:00[0m
+2024-01-28 21:00:31,515 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:31,823 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:31,824 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:31Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:31Z"}
+2024-01-28 21:00:31,825 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:31UTC+05:00[0m
+2024-01-28 21:00:31,827 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:32,027 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:32,028 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:31Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:31Z"}
+2024-01-28 21:00:32,028 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0.99 seconds, Exit: 2024-01-28T21:00:32UTC+05:00[0m
+2024-01-28 21:00:32,705 - INFO - current_frame_of_video: 30.0
+2024-01-28 21:00:32,705 - INFO - current_time_of_video: 2.29
+2024-01-28 21:00:32,715 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:32,948 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:32,949 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:32Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:32Z"}
+2024-01-28 21:00:32,949 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:32UTC+05:00[0m
+2024-01-28 21:00:32,951 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:33,141 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:33,142 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:32Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:32Z"}
+2024-01-28 21:00:33,143 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:33UTC+05:00[0m
+2024-01-28 21:00:33,145 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:33,467 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:33,468 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:33Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:33Z"}
+2024-01-28 21:00:33,468 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0.99 seconds, Exit: 2024-01-28T21:00:33UTC+05:00[0m
+2024-01-28 21:00:34,158 - INFO - current_frame_of_video: 31.0
+2024-01-28 21:00:34,158 - INFO - current_time_of_video: 2.37
+2024-01-28 21:00:34,678 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:34,996 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:34,997 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:34Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:34Z"}
+2024-01-28 21:00:34,997 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:34UTC+05:00[0m
+2024-01-28 21:00:34,999 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:35,304 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:35,305 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:34Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:34Z"}
+2024-01-28 21:00:35,306 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:35UTC+05:00[0m
+2024-01-28 21:00:35,307 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:35,508 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:35,509 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:35Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:35Z"}
+2024-01-28 21:00:35,510 - WARNING - [91mAlert for Face ID: 2, Total Duration: 0.99 seconds, Exit: 2024-01-28T21:00:35UTC+05:00[0m
+2024-01-28 21:00:36,206 - INFO - current_frame_of_video: 32.0
+2024-01-28 21:00:36,206 - INFO - current_time_of_video: 2.44
+2024-01-28 21:00:36,706 - INFO - face id: 2
+2024-01-28 21:00:36,707 - INFO - prev elapsed time: 0.99
+2024-01-28 21:00:36,708 - INFO - elapsed time: 1.91
+2024-01-28 21:00:36,708 - INFO - time difference: 0.92
+2024-01-28 21:00:36,727 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:36,829 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:36,830 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:36Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:36Z"}
+2024-01-28 21:00:36,830 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:36UTC+05:00[0m
+2024-01-28 21:00:36,831 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:36,929 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:36,932 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:36Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:36Z"}
+2024-01-28 21:00:36,932 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:36UTC+05:00[0m
+2024-01-28 21:00:37,841 - INFO - current_frame_of_video: 33.0
+2024-01-28 21:00:37,841 - INFO - current_time_of_video: 2.52
+2024-01-28 21:00:38,637 - INFO - face id: 2
+2024-01-28 21:00:38,637 - INFO - prev elapsed time: 1.91
+2024-01-28 21:00:38,639 - INFO - elapsed time: 1.99
+2024-01-28 21:00:38,639 - INFO - time difference: 0.08
+2024-01-28 21:00:38,661 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:38,888 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:38,888 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:38Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:38Z"}
+2024-01-28 21:00:38,889 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:38UTC+05:00[0m
+2024-01-28 21:00:38,890 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:39,198 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:39,198 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:38Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:38Z"}
+2024-01-28 21:00:39,198 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:39UTC+05:00[0m
+2024-01-28 21:00:39,918 - INFO - current_frame_of_video: 34.0
+2024-01-28 21:00:39,918 - INFO - current_time_of_video: 2.6
+2024-01-28 21:00:39,928 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:40,133 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:40,134 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:39Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:39Z"}
+2024-01-28 21:00:40,134 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:40UTC+05:00[0m
+2024-01-28 21:00:40,136 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:40,416 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:40,417 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:40Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:40Z"}
+2024-01-28 21:00:40,417 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:40UTC+05:00[0m
+2024-01-28 21:00:41,169 - INFO - current_frame_of_video: 35.0
+2024-01-28 21:00:41,169 - INFO - current_time_of_video: 2.67
+2024-01-28 21:00:41,180 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:41,346 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:41,346 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:41Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:41Z"}
+2024-01-28 21:00:41,347 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:41UTC+05:00[0m
+2024-01-28 21:00:41,348 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:41,556 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:41,557 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:41Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:41Z"}
+2024-01-28 21:00:41,557 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:41UTC+05:00[0m
+2024-01-28 21:00:42,323 - INFO - current_frame_of_video: 36.0
+2024-01-28 21:00:42,324 - INFO - current_time_of_video: 2.75
+2024-01-28 21:00:42,334 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:42,497 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:42,498 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:42Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:42Z"}
+2024-01-28 21:00:42,498 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:42UTC+05:00[0m
+2024-01-28 21:00:42,500 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:42,677 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:43,085 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:42Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:42Z"}
+2024-01-28 21:00:43,085 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:43UTC+05:00[0m
+2024-01-28 21:00:43,087 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:43,376 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:43,377 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:43Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:43Z"}
+2024-01-28 21:00:43,377 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:00:43UTC+05:00[0m
+2024-01-28 21:00:44,184 - INFO - current_frame_of_video: 37.0
+2024-01-28 21:00:44,184 - INFO - current_time_of_video: 2.83
+2024-01-28 21:00:44,197 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:44,418 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:45,374 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:44Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:44Z"}
+2024-01-28 21:00:45,374 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:45UTC+05:00[0m
+2024-01-28 21:00:45,376 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:45,548 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:45,549 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:45Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:45Z"}
+2024-01-28 21:00:45,549 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:45UTC+05:00[0m
+2024-01-28 21:00:45,550 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:45,752 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:45,753 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:45Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:45Z"}
+2024-01-28 21:00:45,753 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:00:45UTC+05:00[0m
+2024-01-28 21:00:46,489 - INFO - current_frame_of_video: 38.0
+2024-01-28 21:00:46,489 - INFO - current_time_of_video: 2.9
+2024-01-28 21:00:46,500 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:46,615 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:46,616 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:46Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:46Z"}
+2024-01-28 21:00:46,617 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:46UTC+05:00[0m
+2024-01-28 21:00:46,618 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:46,726 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:46,727 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:46Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:46Z"}
+2024-01-28 21:00:46,727 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:46UTC+05:00[0m
+2024-01-28 21:00:46,729 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:46,843 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:46,844 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:46Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:46Z"}
+2024-01-28 21:00:46,844 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:00:46UTC+05:00[0m
+2024-01-28 21:00:47,567 - INFO - current_frame_of_video: 39.0
+2024-01-28 21:00:47,567 - INFO - current_time_of_video: 2.98
+2024-01-28 21:00:47,577 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:47,683 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:47,684 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:47Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:47Z"}
+2024-01-28 21:00:47,684 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:47UTC+05:00[0m
+2024-01-28 21:00:47,686 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:47,795 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:47,798 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:47Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:47Z"}
+2024-01-28 21:00:47,798 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:47UTC+05:00[0m
+2024-01-28 21:00:47,800 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:47,904 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:47,905 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:47Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:47Z"}
+2024-01-28 21:00:47,905 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:00:47UTC+05:00[0m
+2024-01-28 21:00:48,734 - INFO - current_frame_of_video: 40.0
+2024-01-28 21:00:48,734 - INFO - current_time_of_video: 3.06
+2024-01-28 21:00:48,748 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:48,846 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:48,849 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:48Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:48Z"}
+2024-01-28 21:00:48,849 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:48UTC+05:00[0m
+2024-01-28 21:00:48,850 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:48,987 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:48,990 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:48Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:48Z"}
+2024-01-28 21:00:48,990 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:48UTC+05:00[0m
+2024-01-28 21:00:48,991 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:49,129 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:49,130 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:48Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:48Z"}
+2024-01-28 21:00:49,130 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:00:49UTC+05:00[0m
+2024-01-28 21:00:49,990 - INFO - current_frame_of_video: 41.0
+2024-01-28 21:00:49,990 - INFO - current_time_of_video: 3.13
+2024-01-28 21:00:49,999 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:50,128 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:50,129 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:49Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:49Z"}
+2024-01-28 21:00:50,129 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:50UTC+05:00[0m
+2024-01-28 21:00:50,130 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:50,265 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:50,265 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:50Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:50Z"}
+2024-01-28 21:00:50,265 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:50UTC+05:00[0m
+2024-01-28 21:00:50,266 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:50,387 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:50,390 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:50Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:50Z"}
+2024-01-28 21:00:50,390 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:00:50UTC+05:00[0m
+2024-01-28 21:00:51,200 - INFO - current_frame_of_video: 42.0
+2024-01-28 21:00:51,200 - INFO - current_time_of_video: 3.21
+2024-01-28 21:00:51,210 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:51,319 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:51,321 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:51Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:51Z"}
+2024-01-28 21:00:51,322 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:51UTC+05:00[0m
+2024-01-28 21:00:51,322 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:51,426 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:51,427 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:51Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:51Z"}
+2024-01-28 21:00:51,427 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:51UTC+05:00[0m
+2024-01-28 21:00:51,427 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:51,539 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:51,543 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:51Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:51Z"}
+2024-01-28 21:00:51,543 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:00:51UTC+05:00[0m
+2024-01-28 21:00:52,382 - INFO - current_frame_of_video: 43.0
+2024-01-28 21:00:52,382 - INFO - current_time_of_video: 3.28
+2024-01-28 21:00:52,393 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:52,494 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:52,495 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:52Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:52Z"}
+2024-01-28 21:00:52,495 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:52UTC+05:00[0m
+2024-01-28 21:00:52,495 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:52,601 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:52,602 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:52Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:52Z"}
+2024-01-28 21:00:52,602 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:52UTC+05:00[0m
+2024-01-28 21:00:52,604 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:52,710 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:52,710 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:52Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:52Z"}
+2024-01-28 21:00:52,710 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:00:52UTC+05:00[0m
+2024-01-28 21:00:53,612 - INFO - current_frame_of_video: 44.0
+2024-01-28 21:00:53,612 - INFO - current_time_of_video: 3.36
+2024-01-28 21:00:53,622 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:53,718 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:53,721 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:53Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:53Z"}
+2024-01-28 21:00:53,722 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:53UTC+05:00[0m
+2024-01-28 21:00:53,724 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:53,830 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:53,830 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:53Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:53Z"}
+2024-01-28 21:00:53,830 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:53UTC+05:00[0m
+2024-01-28 21:00:53,831 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:53,932 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:53,932 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:53Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:53Z"}
+2024-01-28 21:00:53,932 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:00:53UTC+05:00[0m
+2024-01-28 21:00:54,870 - INFO - current_frame_of_video: 45.0
+2024-01-28 21:00:54,870 - INFO - current_time_of_video: 3.44
+2024-01-28 21:00:54,891 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:55,007 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:55,007 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:54Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:54Z"}
+2024-01-28 21:00:55,007 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:55UTC+05:00[0m
+2024-01-28 21:00:55,008 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:55,112 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:55,113 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:55Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:55Z"}
+2024-01-28 21:00:55,113 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:55UTC+05:00[0m
+2024-01-28 21:00:55,114 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:56,248 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:56,302 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:55Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:55Z"}
+2024-01-28 21:00:56,302 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:00:56UTC+05:00[0m
+2024-01-28 21:00:57,169 - INFO - current_frame_of_video: 46.0
+2024-01-28 21:00:57,169 - INFO - current_time_of_video: 3.51
+2024-01-28 21:00:57,181 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:57,286 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:57,289 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:57Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:57Z"}
+2024-01-28 21:00:57,289 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:57UTC+05:00[0m
+2024-01-28 21:00:57,290 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:57,393 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:57,394 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:57Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:57Z"}
+2024-01-28 21:00:57,394 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:57UTC+05:00[0m
+2024-01-28 21:00:57,395 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:57,500 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:57,500 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:57Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:57Z"}
+2024-01-28 21:00:57,501 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:00:57UTC+05:00[0m
+2024-01-28 21:00:58,369 - INFO - current_frame_of_video: 47.0
+2024-01-28 21:00:58,369 - INFO - current_time_of_video: 3.59
+2024-01-28 21:00:58,382 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:58,554 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:58,555 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:58Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:58Z"}
+2024-01-28 21:00:58,555 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:58UTC+05:00[0m
+2024-01-28 21:00:58,557 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:58,753 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:00:58,754 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:58Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:58Z"}
+2024-01-28 21:00:58,754 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:00:58UTC+05:00[0m
+2024-01-28 21:00:58,756 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:58,958 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:00:58,959 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:58Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:00:58Z"}
+2024-01-28 21:00:58,959 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:00:58UTC+05:00[0m
+2024-01-28 21:00:59,796 - INFO - current_frame_of_video: 48.0
+2024-01-28 21:00:59,796 - INFO - current_time_of_video: 3.67
+2024-01-28 21:00:59,807 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:00:59,987 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:00:59,988 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:59Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:00:59Z"}
+2024-01-28 21:00:59,988 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:00:59UTC+05:00[0m
+2024-01-28 21:00:59,990 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:00,140 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:00,141 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:00:59Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:00:59Z"}
+2024-01-28 21:01:00,141 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:00UTC+05:00[0m
+2024-01-28 21:01:00,141 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:00,392 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:00,393 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:00Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:00Z"}
+2024-01-28 21:01:00,393 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:00UTC+05:00[0m
+2024-01-28 21:01:01,537 - INFO - current_frame_of_video: 49.0
+2024-01-28 21:01:01,538 - INFO - current_time_of_video: 3.74
+2024-01-28 21:01:01,564 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:01,703 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:01,703 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:01Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:01Z"}
+2024-01-28 21:01:01,703 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:01UTC+05:00[0m
+2024-01-28 21:01:01,704 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:01,910 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:01,912 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:01Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:01Z"}
+2024-01-28 21:01:01,912 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:01UTC+05:00[0m
+2024-01-28 21:01:01,914 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:02,032 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:02,035 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:01Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:01Z"}
+2024-01-28 21:01:02,035 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:02UTC+05:00[0m
+2024-01-28 21:01:02,967 - INFO - current_frame_of_video: 50.0
+2024-01-28 21:01:02,967 - INFO - current_time_of_video: 3.82
+2024-01-28 21:01:02,978 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:03,079 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:03,080 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:02Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:02Z"}
+2024-01-28 21:01:03,080 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:03UTC+05:00[0m
+2024-01-28 21:01:03,082 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:03,182 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:03,183 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:03Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:03Z"}
+2024-01-28 21:01:03,183 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:03UTC+05:00[0m
+2024-01-28 21:01:03,185 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:03,288 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:03,289 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:03Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:03Z"}
+2024-01-28 21:01:03,289 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:03UTC+05:00[0m
+2024-01-28 21:01:04,134 - INFO - current_frame_of_video: 51.0
+2024-01-28 21:01:04,134 - INFO - current_time_of_video: 3.9
+2024-01-28 21:01:04,897 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:04,998 - DEBUG - http://13.235.71.140:5000 "POST /customer-wait-time HTTP/1.1" 200 None
+2024-01-28 21:01:04,999 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:04Z","status":"PRESENT","arrivalDateTime":"2024-01-28T16:01:04Z","departureDateTime":null}
+2024-01-28 21:01:05,000 - INFO - elapsed time: 0
+2024-01-28 21:01:05,000 - INFO - time difference: 0
+2024-01-28 21:01:05,015 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:05,120 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:05,122 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:05Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:05Z"}
+2024-01-28 21:01:05,122 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:05UTC+05:00[0m
+2024-01-28 21:01:05,124 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:05,222 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:05,224 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:05Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:05Z"}
+2024-01-28 21:01:05,224 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:05UTC+05:00[0m
+2024-01-28 21:01:05,225 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:05,335 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:05,338 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:05Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:05Z"}
+2024-01-28 21:01:05,338 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:05UTC+05:00[0m
+2024-01-28 21:01:06,188 - INFO - current_frame_of_video: 52.0
+2024-01-28 21:01:06,188 - INFO - current_time_of_video: 3.97
+2024-01-28 21:01:06,198 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:06,434 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:06,435 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:06Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:06Z"}
+2024-01-28 21:01:06,435 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:06UTC+05:00[0m
+2024-01-28 21:01:06,437 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:06,638 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:06,639 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:06Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:06Z"}
+2024-01-28 21:01:06,640 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:06UTC+05:00[0m
+2024-01-28 21:01:06,641 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:06,843 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:06,844 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:06Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:06Z"}
+2024-01-28 21:01:06,844 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:06UTC+05:00[0m
+2024-01-28 21:01:07,710 - INFO - current_frame_of_video: 53.0
+2024-01-28 21:01:07,710 - INFO - current_time_of_video: 4.05
+2024-01-28 21:01:07,720 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:07,871 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:07,872 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:07Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:07Z"}
+2024-01-28 21:01:07,872 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:07UTC+05:00[0m
+2024-01-28 21:01:07,873 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:08,072 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:08,073 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:07Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:07Z"}
+2024-01-28 21:01:08,073 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:08UTC+05:00[0m
+2024-01-28 21:01:08,074 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:08,287 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:08,287 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:08Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:08Z"}
+2024-01-28 21:01:08,288 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:08UTC+05:00[0m
+2024-01-28 21:01:09,036 - INFO - current_frame_of_video: 54.0
+2024-01-28 21:01:09,036 - INFO - current_time_of_video: 4.12
+2024-01-28 21:01:09,047 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:09,232 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:09,233 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:09Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:09Z"}
+2024-01-28 21:01:09,233 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:09UTC+05:00[0m
+2024-01-28 21:01:09,235 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:09,403 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:09,404 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:09Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:09Z"}
+2024-01-28 21:01:09,405 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:09UTC+05:00[0m
+2024-01-28 21:01:09,407 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:09,608 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:09,609 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:09Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:09Z"}
+2024-01-28 21:01:09,609 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:09UTC+05:00[0m
+2024-01-28 21:01:09,610 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:09,710 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:09,711 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:09Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:09Z"}
+2024-01-28 21:01:09,712 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:09UTC+05:00[0m
+2024-01-28 21:01:10,485 - INFO - current_frame_of_video: 55.0
+2024-01-28 21:01:10,486 - INFO - current_time_of_video: 4.2
+2024-01-28 21:01:10,496 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:10,591 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:10,592 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:10Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:10Z"}
+2024-01-28 21:01:10,592 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:10UTC+05:00[0m
+2024-01-28 21:01:10,593 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:10,704 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:10,704 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:10Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:10Z"}
+2024-01-28 21:01:10,705 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:10UTC+05:00[0m
+2024-01-28 21:01:10,706 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:10,812 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:10,814 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:10Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:10Z"}
+2024-01-28 21:01:10,814 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:10UTC+05:00[0m
+2024-01-28 21:01:10,816 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:10,917 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:10,918 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:10Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:10Z"}
+2024-01-28 21:01:10,918 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:10UTC+05:00[0m
+2024-01-28 21:01:11,706 - INFO - current_frame_of_video: 56.0
+2024-01-28 21:01:11,706 - INFO - current_time_of_video: 4.28
+2024-01-28 21:01:11,718 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:11,826 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:11,828 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:11Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:11Z"}
+2024-01-28 21:01:11,829 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:11UTC+05:00[0m
+2024-01-28 21:01:11,830 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:11,934 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:11,937 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:11Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:11Z"}
+2024-01-28 21:01:11,937 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:11UTC+05:00[0m
+2024-01-28 21:01:11,939 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:12,041 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:12,041 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:11Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:11Z"}
+2024-01-28 21:01:12,041 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:12UTC+05:00[0m
+2024-01-28 21:01:12,042 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:12,143 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:12,144 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:12Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:12Z"}
+2024-01-28 21:01:12,144 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:12UTC+05:00[0m
+2024-01-28 21:01:13,069 - INFO - current_frame_of_video: 57.0
+2024-01-28 21:01:13,069 - INFO - current_time_of_video: 4.35
+2024-01-28 21:01:13,081 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:13,190 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:13,191 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:13Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:13Z"}
+2024-01-28 21:01:13,191 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:13UTC+05:00[0m
+2024-01-28 21:01:13,193 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:13,296 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:13,297 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:13Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:13Z"}
+2024-01-28 21:01:13,298 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:13UTC+05:00[0m
+2024-01-28 21:01:13,300 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:13,402 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:13,403 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:13Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:13Z"}
+2024-01-28 21:01:13,403 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:13UTC+05:00[0m
+2024-01-28 21:01:13,405 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:13,504 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:13,505 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:13Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:13Z"}
+2024-01-28 21:01:13,505 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:13UTC+05:00[0m
+2024-01-28 21:01:14,340 - INFO - current_frame_of_video: 58.0
+2024-01-28 21:01:14,340 - INFO - current_time_of_video: 4.43
+2024-01-28 21:01:14,351 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:14,451 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:14,452 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:14Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:14Z"}
+2024-01-28 21:01:14,452 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:14UTC+05:00[0m
+2024-01-28 21:01:14,453 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:14,578 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:14,579 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:14Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:14Z"}
+2024-01-28 21:01:14,579 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:14UTC+05:00[0m
+2024-01-28 21:01:14,581 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:14,684 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:14,685 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:14Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:14Z"}
+2024-01-28 21:01:14,685 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:14UTC+05:00[0m
+2024-01-28 21:01:14,687 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:14,822 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:14,822 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:14Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:14Z"}
+2024-01-28 21:01:14,822 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:14UTC+05:00[0m
+2024-01-28 21:01:15,597 - INFO - current_frame_of_video: 59.0
+2024-01-28 21:01:15,597 - INFO - current_time_of_video: 4.51
+2024-01-28 21:01:15,607 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:15,709 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:15,712 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:15Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:15Z"}
+2024-01-28 21:01:15,712 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:15UTC+05:00[0m
+2024-01-28 21:01:15,714 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:15,851 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:15,852 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:15Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:15Z"}
+2024-01-28 21:01:15,852 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:15UTC+05:00[0m
+2024-01-28 21:01:15,854 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:15,954 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:15,955 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:15Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:15Z"}
+2024-01-28 21:01:15,955 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:15UTC+05:00[0m
+2024-01-28 21:01:15,957 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:16,060 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:16,061 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:15Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:15Z"}
+2024-01-28 21:01:16,062 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:16UTC+05:00[0m
+2024-01-28 21:01:16,805 - INFO - current_frame_of_video: 60.0
+2024-01-28 21:01:16,805 - INFO - current_time_of_video: 4.58
+2024-01-28 21:01:16,815 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:16,939 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:16,939 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:16Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:16Z"}
+2024-01-28 21:01:16,940 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:16UTC+05:00[0m
+2024-01-28 21:01:16,940 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:17,063 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:17,063 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:16Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:16Z"}
+2024-01-28 21:01:17,063 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:17UTC+05:00[0m
+2024-01-28 21:01:17,064 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:17,164 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:17,165 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:17Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:17Z"}
+2024-01-28 21:01:17,165 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:17UTC+05:00[0m
+2024-01-28 21:01:17,167 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:17,287 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:17,288 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:17Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:17Z"}
+2024-01-28 21:01:17,288 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:17UTC+05:00[0m
+2024-01-28 21:01:18,037 - INFO - current_frame_of_video: 61.0
+2024-01-28 21:01:18,037 - INFO - current_time_of_video: 4.66
+2024-01-28 21:01:18,050 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:18,157 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:18,158 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:18Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:18Z"}
+2024-01-28 21:01:18,158 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:18UTC+05:00[0m
+2024-01-28 21:01:18,159 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:18,280 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:18,281 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:18Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:18Z"}
+2024-01-28 21:01:18,281 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:18UTC+05:00[0m
+2024-01-28 21:01:18,282 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:18,409 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:18,410 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:18Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:18Z"}
+2024-01-28 21:01:18,410 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:18UTC+05:00[0m
+2024-01-28 21:01:18,412 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:18,515 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:18,517 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:18Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:18Z"}
+2024-01-28 21:01:18,517 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:18UTC+05:00[0m
+2024-01-28 21:01:19,236 - INFO - current_frame_of_video: 62.0
+2024-01-28 21:01:19,236 - INFO - current_time_of_video: 4.74
+2024-01-28 21:01:19,250 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:19,355 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:19,356 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:19Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:19Z"}
+2024-01-28 21:01:19,356 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:19UTC+05:00[0m
+2024-01-28 21:01:19,357 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:19,457 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:19,460 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:19Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:19Z"}
+2024-01-28 21:01:19,460 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:19UTC+05:00[0m
+2024-01-28 21:01:19,461 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:19,564 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:19,564 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:19Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:19Z"}
+2024-01-28 21:01:19,564 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:19UTC+05:00[0m
+2024-01-28 21:01:19,565 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:19,666 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:19,667 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:19Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:19Z"}
+2024-01-28 21:01:19,667 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:19UTC+05:00[0m
+2024-01-28 21:01:20,390 - INFO - current_frame_of_video: 63.0
+2024-01-28 21:01:20,390 - INFO - current_time_of_video: 4.81
+2024-01-28 21:01:20,400 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:20,501 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:20,502 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:20Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:20Z"}
+2024-01-28 21:01:20,503 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:20UTC+05:00[0m
+2024-01-28 21:01:20,504 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:20,613 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:20,614 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:20Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:20Z"}
+2024-01-28 21:01:20,614 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:20UTC+05:00[0m
+2024-01-28 21:01:20,615 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:20,726 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:20,727 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:20Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:20Z"}
+2024-01-28 21:01:20,727 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:20UTC+05:00[0m
+2024-01-28 21:01:20,728 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:20,838 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:20,839 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:20Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:20Z"}
+2024-01-28 21:01:20,839 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:20UTC+05:00[0m
+2024-01-28 21:01:21,598 - INFO - current_frame_of_video: 64.0
+2024-01-28 21:01:21,598 - INFO - current_time_of_video: 4.89
+2024-01-28 21:01:21,607 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:21,710 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:21,711 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:21Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:21Z"}
+2024-01-28 21:01:21,711 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:21UTC+05:00[0m
+2024-01-28 21:01:21,712 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:21,816 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:21,817 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:21Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:21Z"}
+2024-01-28 21:01:21,817 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:21UTC+05:00[0m
+2024-01-28 21:01:21,818 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:21,918 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:21,921 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:21Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:21Z"}
+2024-01-28 21:01:21,921 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:21UTC+05:00[0m
+2024-01-28 21:01:21,923 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:22,022 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:22,025 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:21Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:21Z"}
+2024-01-28 21:01:22,025 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:22UTC+05:00[0m
+2024-01-28 21:01:22,949 - INFO - current_frame_of_video: 65.0
+2024-01-28 21:01:22,949 - INFO - current_time_of_video: 4.96
+2024-01-28 21:01:22,960 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:23,065 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:23,067 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:22Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:22Z"}
+2024-01-28 21:01:23,068 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:23UTC+05:00[0m
+2024-01-28 21:01:23,070 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:23,178 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:23,179 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:23Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:23Z"}
+2024-01-28 21:01:23,179 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:23UTC+05:00[0m
+2024-01-28 21:01:23,180 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:23,277 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:23,278 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:23Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:23Z"}
+2024-01-28 21:01:23,278 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:23UTC+05:00[0m
+2024-01-28 21:01:23,279 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:23,382 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:23,383 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:23Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:23Z"}
+2024-01-28 21:01:23,383 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:23UTC+05:00[0m
+2024-01-28 21:01:24,235 - INFO - current_frame_of_video: 66.0
+2024-01-28 21:01:24,235 - INFO - current_time_of_video: 5.04
+2024-01-28 21:01:24,966 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:25,072 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:25,073 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:24Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:24Z"}
+2024-01-28 21:01:25,074 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:25UTC+05:00[0m
+2024-01-28 21:01:25,075 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:25,178 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:25,178 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:25Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:25Z"}
+2024-01-28 21:01:25,179 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:25UTC+05:00[0m
+2024-01-28 21:01:25,180 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:25,283 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:25,284 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:25Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:25Z"}
+2024-01-28 21:01:25,284 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:25UTC+05:00[0m
+2024-01-28 21:01:25,286 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:25,392 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:25,393 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:25Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:25Z"}
+2024-01-28 21:01:25,394 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:25UTC+05:00[0m
+2024-01-28 21:01:26,296 - INFO - current_frame_of_video: 67.0
+2024-01-28 21:01:26,296 - INFO - current_time_of_video: 5.12
+2024-01-28 21:01:26,308 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:26,444 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:26,444 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:26Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:26Z"}
+2024-01-28 21:01:26,444 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:26UTC+05:00[0m
+2024-01-28 21:01:26,446 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:26,562 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:26,563 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:26Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:26Z"}
+2024-01-28 21:01:26,563 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:26UTC+05:00[0m
+2024-01-28 21:01:26,565 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:27,691 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:27,734 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:26Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:26Z"}
+2024-01-28 21:01:27,735 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:27UTC+05:00[0m
+2024-01-28 21:01:27,736 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:27,834 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:27,834 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:27Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:27Z"}
+2024-01-28 21:01:27,834 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:27UTC+05:00[0m
+2024-01-28 21:01:28,668 - INFO - current_frame_of_video: 68.0
+2024-01-28 21:01:28,668 - INFO - current_time_of_video: 5.19
+2024-01-28 21:01:28,681 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:28,787 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:28,788 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:28Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:28Z"}
+2024-01-28 21:01:28,788 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:28UTC+05:00[0m
+2024-01-28 21:01:28,791 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:28,899 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:28,901 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:28Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:28Z"}
+2024-01-28 21:01:28,901 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:28UTC+05:00[0m
+2024-01-28 21:01:28,903 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:29,003 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:29,004 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:28Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:28Z"}
+2024-01-28 21:01:29,004 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:29UTC+05:00[0m
+2024-01-28 21:01:29,006 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:29,111 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:29,112 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:29Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:29Z"}
+2024-01-28 21:01:29,112 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:29UTC+05:00[0m
+2024-01-28 21:01:30,085 - INFO - current_frame_of_video: 69.0
+2024-01-28 21:01:30,085 - INFO - current_time_of_video: 5.27
+2024-01-28 21:01:30,098 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:30,246 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:30,247 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:30Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:30Z"}
+2024-01-28 21:01:30,247 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:30UTC+05:00[0m
+2024-01-28 21:01:30,248 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:30,498 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:30,499 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:30Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:30Z"}
+2024-01-28 21:01:30,499 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:30UTC+05:00[0m
+2024-01-28 21:01:30,501 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:30,907 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:30,908 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:30Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:30Z"}
+2024-01-28 21:01:30,908 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:30UTC+05:00[0m
+2024-01-28 21:01:30,910 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:31,112 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:31,113 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:30Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:30Z"}
+2024-01-28 21:01:31,113 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:31UTC+05:00[0m
+2024-01-28 21:01:31,991 - INFO - current_frame_of_video: 70.0
+2024-01-28 21:01:31,991 - INFO - current_time_of_video: 5.35
+2024-01-28 21:01:32,004 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:32,104 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:32,105 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:32Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:32Z"}
+2024-01-28 21:01:32,105 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:32UTC+05:00[0m
+2024-01-28 21:01:32,107 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:32,207 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:32,208 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:32Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:32Z"}
+2024-01-28 21:01:32,208 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:32UTC+05:00[0m
+2024-01-28 21:01:32,209 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:32,311 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:32,312 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:32Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:32Z"}
+2024-01-28 21:01:32,312 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:32UTC+05:00[0m
+2024-01-28 21:01:32,313 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:32,420 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:32,421 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:32Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:32Z"}
+2024-01-28 21:01:32,421 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:32UTC+05:00[0m
+2024-01-28 21:01:33,323 - INFO - current_frame_of_video: 71.0
+2024-01-28 21:01:33,323 - INFO - current_time_of_video: 5.42
+2024-01-28 21:01:33,334 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:33,438 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:33,441 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:33Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:33Z"}
+2024-01-28 21:01:33,441 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:33UTC+05:00[0m
+2024-01-28 21:01:33,442 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:33,546 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:33,547 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:33Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:33Z"}
+2024-01-28 21:01:33,547 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:33UTC+05:00[0m
+2024-01-28 21:01:33,548 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:33,659 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:33,662 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:33Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:33Z"}
+2024-01-28 21:01:33,662 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:33UTC+05:00[0m
+2024-01-28 21:01:33,663 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:33,773 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:33,775 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:33Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:33Z"}
+2024-01-28 21:01:33,775 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:33UTC+05:00[0m
+2024-01-28 21:01:34,758 - INFO - current_frame_of_video: 72.0
+2024-01-28 21:01:34,758 - INFO - current_time_of_video: 5.5
+2024-01-28 21:01:34,770 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:34,873 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:34,875 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:34Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:34Z"}
+2024-01-28 21:01:34,875 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:34UTC+05:00[0m
+2024-01-28 21:01:34,878 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:35,002 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:35,003 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:34Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:34Z"}
+2024-01-28 21:01:35,003 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:35UTC+05:00[0m
+2024-01-28 21:01:35,005 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:35,119 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:35,119 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:35Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:35Z"}
+2024-01-28 21:01:35,119 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:35UTC+05:00[0m
+2024-01-28 21:01:35,120 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:35,254 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:35,255 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:35Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:35Z"}
+2024-01-28 21:01:35,256 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:35UTC+05:00[0m
+2024-01-28 21:01:36,174 - INFO - current_frame_of_video: 73.0
+2024-01-28 21:01:36,174 - INFO - current_time_of_video: 5.58
+2024-01-28 21:01:36,187 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:36,288 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:36,289 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:36Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:36Z"}
+2024-01-28 21:01:36,290 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:36UTC+05:00[0m
+2024-01-28 21:01:36,292 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:36,392 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:36,394 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:36Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:36Z"}
+2024-01-28 21:01:36,394 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:36UTC+05:00[0m
+2024-01-28 21:01:36,396 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:36,500 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:36,506 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:36Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:36Z"}
+2024-01-28 21:01:36,506 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:36UTC+05:00[0m
+2024-01-28 21:01:36,509 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:36,610 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:36,613 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:36Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:36Z"}
+2024-01-28 21:01:36,614 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:36UTC+05:00[0m
+2024-01-28 21:01:37,626 - INFO - current_frame_of_video: 74.0
+2024-01-28 21:01:37,626 - INFO - current_time_of_video: 5.65
+2024-01-28 21:01:37,647 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:37,746 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:37,747 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:37Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:37Z"}
+2024-01-28 21:01:37,747 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:37UTC+05:00[0m
+2024-01-28 21:01:37,748 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:37,864 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:37,865 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:37Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:37Z"}
+2024-01-28 21:01:37,865 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:37UTC+05:00[0m
+2024-01-28 21:01:37,867 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:37,972 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:37,974 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:37Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:37Z"}
+2024-01-28 21:01:37,975 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:37UTC+05:00[0m
+2024-01-28 21:01:37,976 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:38,080 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:38,083 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:37Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:37Z"}
+2024-01-28 21:01:38,083 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:38UTC+05:00[0m
+2024-01-28 21:01:39,017 - INFO - current_frame_of_video: 75.0
+2024-01-28 21:01:39,017 - INFO - current_time_of_video: 5.73
+2024-01-28 21:01:39,029 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:39,141 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:39,142 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:39Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:39Z"}
+2024-01-28 21:01:39,143 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:39UTC+05:00[0m
+2024-01-28 21:01:39,144 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:39,247 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:39,248 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:39Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:39Z"}
+2024-01-28 21:01:39,249 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:39UTC+05:00[0m
+2024-01-28 21:01:39,250 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:39,354 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:39,356 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:39Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:39Z"}
+2024-01-28 21:01:39,356 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:39UTC+05:00[0m
+2024-01-28 21:01:39,357 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:39,459 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:39,459 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:39Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:39Z"}
+2024-01-28 21:01:39,459 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:39UTC+05:00[0m
+2024-01-28 21:01:40,350 - INFO - current_frame_of_video: 76.0
+2024-01-28 21:01:40,350 - INFO - current_time_of_video: 5.8
+2024-01-28 21:01:40,362 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:40,567 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:40,568 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:40Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:40Z"}
+2024-01-28 21:01:40,568 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:40UTC+05:00[0m
+2024-01-28 21:01:40,570 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:40,747 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:40,748 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:40Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:40Z"}
+2024-01-28 21:01:40,749 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:40UTC+05:00[0m
+2024-01-28 21:01:40,750 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:41,876 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:41,931 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:40Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:40Z"}
+2024-01-28 21:01:41,932 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:41UTC+05:00[0m
+2024-01-28 21:01:41,933 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:42,171 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:42,172 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:41Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:41Z"}
+2024-01-28 21:01:42,173 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:42UTC+05:00[0m
+2024-01-28 21:01:43,349 - INFO - current_frame_of_video: 77.0
+2024-01-28 21:01:43,350 - INFO - current_time_of_video: 5.88
+2024-01-28 21:01:43,379 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:43,605 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:43,608 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:43Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:43Z"}
+2024-01-28 21:01:43,608 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:43UTC+05:00[0m
+2024-01-28 21:01:43,610 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:43,810 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:43,812 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:43Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:43Z"}
+2024-01-28 21:01:43,812 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:43UTC+05:00[0m
+2024-01-28 21:01:43,813 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:43,979 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:43,980 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:43Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:43Z"}
+2024-01-28 21:01:43,980 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:43UTC+05:00[0m
+2024-01-28 21:01:43,981 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:44,096 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/96 HTTP/1.1" 200 None
+2024-01-28 21:01:44,097 - INFO - Request Successful
+Response: {"id":96,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:43Z","status":"EXIT","arrivalDateTime":"2024-01-28T21:01:04+05:00","departureDateTime":"2024-01-28T16:01:43Z"}
+2024-01-28 21:01:44,097 - WARNING - [91mAlert for Face ID: 5, Total Duration: 0 seconds, Exit: 2024-01-28T21:01:44UTC+05:00[0m
+2024-01-28 21:01:45,218 - INFO - current_frame_of_video: 78.0
+2024-01-28 21:01:45,219 - INFO - current_time_of_video: 5.96
+2024-01-28 21:01:46,120 - INFO - face id: 5
+2024-01-28 21:01:46,121 - INFO - prev elapsed time: 0
+2024-01-28 21:01:46,123 - INFO - elapsed time: 2.06
+2024-01-28 21:01:46,123 - INFO - time difference: 2.06
+2024-01-28 21:01:46,146 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:46,377 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:46,378 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:46Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:46Z"}
+2024-01-28 21:01:46,378 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:46UTC+05:00[0m
+2024-01-28 21:01:46,380 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:46,584 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:46,585 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:46Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:46Z"}
+2024-01-28 21:01:46,586 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:46UTC+05:00[0m
+2024-01-28 21:01:46,587 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:46,787 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:46,788 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:46Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:46Z"}
+2024-01-28 21:01:46,788 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:46UTC+05:00[0m
+2024-01-28 21:01:47,868 - INFO - current_frame_of_video: 79.0
+2024-01-28 21:01:47,868 - INFO - current_time_of_video: 6.03
+2024-01-28 21:01:48,752 - INFO - face id: 5
+2024-01-28 21:01:48,752 - INFO - prev elapsed time: 0
+2024-01-28 21:01:48,755 - INFO - elapsed time: 0.08
+2024-01-28 21:01:48,755 - INFO - time difference: 0.08
+2024-01-28 21:01:48,773 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:50,166 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:50,269 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:48Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:48Z"}
+2024-01-28 21:01:50,270 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:50UTC+05:00[0m
+2024-01-28 21:01:50,270 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:50,469 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:50,470 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:50Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:50Z"}
+2024-01-28 21:01:50,470 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:50UTC+05:00[0m
+2024-01-28 21:01:50,472 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:50,674 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:50,675 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:50Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:50Z"}
+2024-01-28 21:01:50,675 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:50UTC+05:00[0m
+2024-01-28 21:01:51,679 - INFO - current_frame_of_video: 80.0
+2024-01-28 21:01:51,680 - INFO - current_time_of_video: 6.11
+2024-01-28 21:01:52,701 - INFO - face id: 5
+2024-01-28 21:01:52,701 - INFO - prev elapsed time: 0.08
+2024-01-28 21:01:52,703 - INFO - elapsed time: 0.15
+2024-01-28 21:01:52,703 - INFO - time difference: 0.08
+2024-01-28 21:01:52,740 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:52,927 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/93 HTTP/1.1" 200 None
+2024-01-28 21:01:53,435 - INFO - Request Successful
+Response: {"id":93,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:52Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:12+05:00","departureDateTime":"2024-01-28T16:01:52Z"}
+2024-01-28 21:01:53,435 - WARNING - [91mAlert for Face ID: 1, Total Duration: 1.83 seconds, Exit: 2024-01-28T21:01:53UTC+05:00[0m
+2024-01-28 21:01:53,437 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:53,594 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/94 HTTP/1.1" 200 None
+2024-01-28 21:01:53,595 - INFO - Request Successful
+Response: {"id":94,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:53Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:24+05:00","departureDateTime":"2024-01-28T16:01:53Z"}
+2024-01-28 21:01:53,595 - WARNING - [91mAlert for Face ID: 3, Total Duration: 0.53 seconds, Exit: 2024-01-28T21:01:53UTC+05:00[0m
+2024-01-28 21:01:53,597 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:53,815 - DEBUG - http://13.235.71.140:5000 "PUT /customer-wait-time/exit/95 HTTP/1.1" 200 None
+2024-01-28 21:01:53,816 - INFO - Request Successful
+Response: {"id":95,"country":"pakistan","branch":"clifton","city":"karachi","timestamp":"2024-01-28T16:01:53Z","status":"EXIT","arrivalDateTime":"2024-01-28T20:59:38+05:00","departureDateTime":"2024-01-28T16:01:53Z"}
+2024-01-28 21:01:53,816 - WARNING - [91mAlert for Face ID: 2, Total Duration: 1.99 seconds, Exit: 2024-01-28T21:01:53UTC+05:00[0m
+2024-01-28 21:01:54,788 - INFO - current_frame_of_video: 81.0
+2024-01-28 21:01:54,789 - INFO - current_time_of_video: 6.19
+2024-01-28 21:01:55,580 - INFO - face id: 5
+2024-01-28 21:01:55,580 - INFO - prev elapsed time: 0.15
+2024-01-28 21:01:55,581 - INFO - elapsed time: 0.23
+2024-01-28 21:01:55,581 - INFO - time difference: 0.08
+2024-01-28 21:01:55,602 - DEBUG - Starting new HTTP connection (1): 13.235.71.140:5000
+2024-01-28 21:01:58,928 - ERROR - An error occurred while sending the request: HTTPConnectionPool(host='13.235.71.140', port=5000): Max retries exceeded with url: /customer-wait-time/exit/93 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbde7673cd0>: Failed to establish a new connection: [Errno 113] No route to host'))
+2024-01-28 21:01:58,928 - ERROR - An error occurred in the main function: 'NoneType' object has no attribute 'status_code'
