@@ -9,7 +9,6 @@ Make sure you have the required dependencies installed by running:
 ```bash
 pip install -r requirements.txt
 
-'''
 
 ## Usage
 To run the script, execute the following command:
