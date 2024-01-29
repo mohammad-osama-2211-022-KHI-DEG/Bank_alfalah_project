@@ -6,15 +6,14 @@ This repository contains a Python script for detecting ATM functionality in a vi
 
 Make sure you have the required dependencies installed by running:
 
-```bash
-pip install -r requirements.txt
+
+> pip install -r requirements.txt
 
 
 ## Usage
 To run the script, execute the following command:
 
-'''bash
-python3 main.py
+> python3 main.py
 
 This script uses the YOLO model located at atm_functionality_best.pt and processes the video specified in video_path. You can customize the video file and other parameters in the main.py script according to your needs.
 
