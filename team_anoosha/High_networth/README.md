@@ -28,9 +28,9 @@ Logs are generated at INFO level, providing information about the script's execu
 The script maintains a set of recognized individuals to trigger alerts only once for each person.
 
 ## Functions
-`load_encodings(file_path)`: Load face encodings from the specified file.
-`generate_alert(name)`: Generate and send an alert for the recognized individual.
-`recognize_faces(frame, face_detector, data)`: Recognize faces in a given frame and trigger alerts.
+* `load_encodings(file_path)`: Load face encodings from the specified file.
+* `generate_alert(name)`: Generate and send an alert for the recognized individual.
+* `recognize_faces(frame, face_detector, data)`: Recognize faces in a given frame and trigger alerts.
 
 ## Usage
 1. Ensure Python dependencies are installed: `pip install -r requirements.txt`.
