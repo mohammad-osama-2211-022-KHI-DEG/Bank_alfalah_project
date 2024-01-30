@@ -1,3 +1,5 @@
+# Customer Waiting Time
+
 ## Usage
 1. Install the required dependencies using the provided requirements.txt file:
 ```
