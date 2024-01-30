@@ -8,8 +8,8 @@ import requests
 
 headers = {
         "Content-Type": "application/json",
-        "Authorization": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCQUxGIiwic3ViIjoiSldUIFRva2VuIiwidXNlcm5hbWUiOiJhbmlxYS5tYXNvb2RAeGxvb3BkaWdpdGFsLmNvbSIsImF1dGhvcml0aWVzIjoiQ1JFQVRFX1VTRVIsVklFVyIsImlhdCI6MTcwNjAwMzgyNiwiZXhwIjoxNzA2MzAzODI2fQ.sXSY31PZ7ShamadKxcfTTerJgsF9pYrHdbQqABpJTy8",
-        "X-XSRF-TOKEN": "fccfbe65-6422-4cf6-a302-fb6ebc90ce8e",
+        "Authorization": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCQUxGIiwic3ViIjoiSldUIFRva2VuIiwidXNlcm5hbWUiOiJtdWhhbW1hZG9zYW1hLmhxQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiQ1JFQVRFX1VTRVIsVklFVyIsImlhdCI6MTcwNjYwMDA3NywiZXhwIjoxNzA2OTAwMDc3fQ.4zBF4ZpY_nXax4IhBrdHLQqYw2yj31p5-ZxlVCW5D68",
+        "X-XSRF-TOKEN": "693cb460-a9ed-4d04-95c5-71bb46f931e7",
         "X-SERVER-TO-SERVER" : "true"
     }
 
