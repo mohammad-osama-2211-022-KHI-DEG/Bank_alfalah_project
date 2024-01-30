@@ -9,7 +9,7 @@ from datetime import datetime, timezone, timedelta
 logging.basicConfig(filename='output/logs/mart.log', filemode= 'w', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Constants
-CONFIDENCE_THRESHOLD = 0.95
+CONFIDENCE_THRESHOLD = 0.99
 FACE_RECOGNITION_TOLERANCE = 0.55
 TIME_THRESHOLD = 1.0
 ID_DISAPPEAR_THRESHOLD = 0.2
@@ -180,7 +180,7 @@ def process_faces(faces, frame, rgb, current_frame, fps, current_time):
         x, y, width, height = face['box']
         confidence = face['confidence']
         if confidence > CONFIDENCE_THRESHOLD:
-            encodings = face_recognition.face_encodings(rgb, [(y, x + width, y + height, x)], num_jitters=20)
+            encodings = face_recognition.face_encodings(rgb, [(y, x + width, y + height, x)])
             if len(encodings) > 0:
                 process_encodings(encodings, frame, x, y, width, height, current_frame, fps)
 

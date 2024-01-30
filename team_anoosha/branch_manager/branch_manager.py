@@ -14,7 +14,6 @@ logging.basicConfig(filename='output/logs/nov.log', filemode= 'w', level=logging
 # Constants
 FACE_RECOGNITION_TOLERANCE = 0.4
 REAPPEARANCE_THRESHOLD = 1.0
-ID_DISAPPEAR_THRESHOLD = 1.0
 ENCODINGS_FILE = 'encodings/face_enc_all_cnn_big.pkl'
 VIDEO_PATH = 'video/nov.mp4'
 OUTPUT_VIDEO_PATH = 'output/video_output/nov.avi'
