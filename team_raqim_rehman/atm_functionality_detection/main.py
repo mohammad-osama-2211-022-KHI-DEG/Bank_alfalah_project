@@ -130,7 +130,7 @@ def complainbox_telephone(class_name):
         return alert   
 def Time():
     current_datetime = datetime.now(timezone(timedelta(hours=5)))
-    formatted_date = current_datetime.strftime('%Y-%m-%dT%H:%M:%S%z')
+    formatted_date = current_datetime.strftime('%Y-%m-%dT%H:%M:%S') + str('+05:00')
     return formatted_date
 def data_preparation(workingStatus,total_working_count,total_notworking_count,complaintBoxAvailable,telephoneAvailable,timestamp):
     data = {
