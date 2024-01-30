@@ -18,7 +18,7 @@ for (i, imagePath) in enumerate(imagePaths):
     image = cv2.imread(imagePath)
     rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     #Use Face_recognition to locate faces
-    boxes = face_recognition.face_locations(rgb,model='hog')
+    boxes = face_recognition.face_locations(rgb,model='cnn')
     # compute the facial embedding for the face
     encodings = face_recognition.face_encodings(rgb, boxes)
     # loop over the encodings
