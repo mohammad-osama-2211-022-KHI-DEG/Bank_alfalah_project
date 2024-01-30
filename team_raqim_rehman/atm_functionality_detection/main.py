@@ -160,7 +160,7 @@ def Alert(timestamp):
 
 if __name__ == '__main__':
     model_path = 'atm_functionality_best.pt'
-    video_path = "skipped_images.mp4"
+    video_path = "YouCut_20240114_230531505.mp4"
     # video_path = "ATM_working.mp4"
     target_fps = 8
     detect_atm_usage(model_path, video_path, target_fps)
