@@ -27,8 +27,6 @@ Angry_count = 0
 # Initialize a counter for face IDs
 face_id_counter = 0
 
-# Initialize a set to store unique face IDs that are happy for the current frame
-Angry_face_ids_current_frame = set()
 # Initialize the previous unique happy count
 previous_unique_Angry_count = 0
 # Initialize the previous footfall number
@@ -90,6 +88,7 @@ def get_request_headers():
 detector = MTCNN()
 
 while True:
+    Angry_face_ids_current_frame = set()
     ret, frame = video_capture.read()
     if not ret:
         break
@@ -173,8 +172,6 @@ while True:
     cv2.putText(frame, f"Angry Count: {Angry_count}", (20, 20), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2,
                 cv2.LINE_AA)
     cv2.putText(frame, f"Unique Angry Count: {len(Angry_face_ids_current_frame)}", (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 1,
-                (0, 255, 0), 2, cv2.LINE_AA)
-    cv2.putText(frame, f"Total Face Count: {face_id_counter}", (20, 120), cv2.FONT_HERSHEY_SIMPLEX, 1,
                 (0, 255, 0), 2, cv2.LINE_AA)
     cv2.putText(frame, f"foot_fall number: {len(faces)}", (20, 150), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2,
                 cv2.LINE_AA)
