@@ -12,21 +12,25 @@ customer_waiting_time.py
 ``` 
 
 ## Configuration
+* `FILENAME`: Video file name
 * `CONFIDENCE_THRESHOLD`: Confidence threshold for face detection.
 * `FACE_RECOGNITION_TOLERANCE`: Tolerance level for face recognition.
 * `TIME_THRESHOLD`: Threshold to reset total duration after a certain time.
 * `ID_DISAPPEAR_THRESHOLD`: Threshold for face ID disappearance.
+* `NUM_JITTERS`: Set numbers of num_jitters, `num_jitters` used to augment each frame for specified numbers, can set upto 100.
+* `LOG_FILENAME`: Set directory for logs file.
 * `VIDEO_PATH`: Path to the input video.
 * `OUTPUT_PATH`: Path for the output video.
+* `FOURCC`: FourCC code for video codec selection.
 * `JWT_TOKEN`: JSON Web Token for server authorization.
 * `API_BASE_URL`: Base URL for the server API.
 * `HEADERS`: HTTP headers for server requests.
 
 ## Logging
-The script logs information, warnings, and errors to a file. You can find the logs in the output/logs/mart.log file.
+The script logs information, warnings, and errors to a file. You can find the logs in the `output/logs/mart.log` file.
 
 ## Server Communication
-The script communicates with a server to record face-related data, such as entry and exit timestamps. The server's base URL and API endpoints are configured in the API_BASE_URL and HEADERS variables.
+The script communicates with a server to record face-related data, such as entry and exit timestamps. The server's base URL and API endpoints are configured in the `API_BASE_URL` and `HEADERS` variables.
 
 ## Note
 Ensure that the video file is accessible and the required permissions are set.
