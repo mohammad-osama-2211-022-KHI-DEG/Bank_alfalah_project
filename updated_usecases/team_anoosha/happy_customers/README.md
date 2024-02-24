@@ -23,14 +23,19 @@ pip install opencv-python mtcnn face_recognition numpy keras requests
 ## Configuration
 
 Before running the script, make sure to set the following constants in the code:
-
+- **FILENAME**: Video file name.
 - **DISTANCE_THRESHOLD**: Face recognition distance threshold.
-- **WINDOW_WIDTH** and **WINDOW_HEIGHT**: Size of the display window.
+- **MTCNN_CONFIDENCE**: MTCNN level of face_detection accuracy.
+- **PROCESS_FRAMES_PER_SECOND**: only set frames will be processed
+- **NUM_JITTERS**: Set numbers of num_jitters, `num_jitters` used to augment each frame for specified numbers, can set upto 100.
 - **VIDEO_FILE_PATH**: Path to the video file for processing.
+- **OUTPUT_VIDEO_PATH**: Path for the output video.
 - **EMOTION_DETECTION_MODEL_PATH**: Path to the pre-trained emotion detection model (in HDF5 format).
 - **SERVER_URL**: URL of the remote server for sending notifications and emotion data.
+- **FOURCC**: FourCC code for video codec selection.
+- **JWT_TOKEN**: JSON Web Token for server authorization.
+- **HEADERS**: HTTP headers for server requests. Ensure that you replace the `Authorization` code in `HEADERS`. 
 
-Ensure that you replace the `Authorization` header in the `get_request_headers` function with your own **JWT token**.
 ## Usage
 
 Run the script by executing the following command in your terminal or command prompt:
