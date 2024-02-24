@@ -10,8 +10,8 @@ This directory contains Python scripts for a `branch_manager` using MTCNN and fa
 * Monitors face appearances, calculates durations, and sends data to the server on certain conditions.
 * Uses MTCNN and face_recognition libraries for face detection and recognition.
 
-2. `get_emb.py`
-* Generates face encodings for known faces in the '`augmented_img`' folder.
+2. `get_and_save_emb.py`
+* Generates and save face encodings for known faces in the specified folder.
 * Utilizes the face_recognition library to extract encodings and saves them in a pickle file.
 
 3. `manipulate_img.py`
@@ -29,9 +29,12 @@ This directory contains Python scripts for a `branch_manager` using MTCNN and fa
 * Log entries include timestamps, log levels, and informative messages.
 
 ## Configuration
+* `FILENAME`: Video file name.
 * `FACE_RECOGNITION_TOLERANCE`: Tolerance level for face recognition comparisons.
 * `REAPPEARANCE_THRESHOLD`: Time threshold for detected face reappearances.
+* `ID_DISAPPEAR_THRESHOLD`: Branch manager is not available after this threshold
 * `ENCODINGS_FILE`: File path for storing face encodings.
+* `LOG_FILENAME`: Directory path to save logs file
 * `VIDEO_PATH`: Input video file path for processing.
 * `OUTPUT_VIDEO_PATH`: Output video file path with annotations.
 * `FOURCC`: FourCC code for video codec selection.
