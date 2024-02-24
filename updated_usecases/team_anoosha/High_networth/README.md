@@ -14,11 +14,15 @@ Make sure you have the following dependencies installed:
 * requests
 
 ## Constants
-* `VIDEO_PATH`: Path to the input video.
-* `ENCODINGS_FILE`: File path to store face encodings.
-* `OUTPUT_VIDEO`: Output video path with recognized individuals marked.
+* `FILENAME`: Video file name.
 * `TOLERANCE`: Face recognition tolerance level.
+* `LOG_FILENAME`: Define log file address.
+* `VIDEO_PATH`: Path to the input video.
+* `OUTPUT_VIDEO`: Output video path with recognized individuals marked.
+* `ENCODINGS_FILE`: File path to store face encodings.
 * `ALERT_API_URL`: API endpoint for sending alerts.
+* `NOTIFICATION_URL`: Notification endpoint for sending notification alerts.
+* `JWT_TOKEN`: Authorization code.
 * `API_HEADERS`: Headers for API request, including authorization.
 
 ## Logging
