@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Python script implements a Aggressive  Customer Detection  using computer vision and machine learning techniques. The system analyzes a video feed, identifies faces using the MTCNN (Multi-task Cascaded Convolutional Networks) face detection model, and classifies emotions using a pre-trained deep learning model. It then tracks happy customers, counts unique happy faces, and sends notifications and emotion data to a remote server.
+This Python script implements a Aggressive  Customer Detection  using computer vision and machine learning techniques. The system analyzes a video feed, identifies faces using the MTCNN (Multi-task Cascaded Convolutional Networks) face detection model, and classifies emotions using a pre-trained deep learning model. It then tracks angry customers, counts unique angry faces, and sends notifications and emotion data to a remote server.
 
 ## Requirements
 
@@ -23,14 +23,19 @@ pip install opencv-python mtcnn face_recognition numpy keras requests
 ## Configuration
 
 Before running the script, make sure to set the following constants in the code:
-
+- **FILENAME**: Video file name.
 - **DISTANCE_THRESHOLD**: Face recognition distance threshold.
-- **WINDOW_WIDTH** and **WINDOW_HEIGHT**: Size of the display window.
+- **MTCNN_CONFIDENCE**: MTCNN level of face_detection accuracy.
+- **PROCESS_FRAMES_PER_SECOND**: only set frames will be processed
+- **NUM_JITTERS**: Set numbers of num_jitters, `num_jitters` used to augment each frame for specified numbers, can set upto 100.
 - **VIDEO_FILE_PATH**: Path to the video file for processing.
+- **OUTPUT_VIDEO_PATH**: Path for the output video.
 - **EMOTION_DETECTION_MODEL_PATH**: Path to the pre-trained emotion detection model (in HDF5 format).
 - **SERVER_URL**: URL of the remote server for sending notifications and emotion data.
+- **FOURCC**: FourCC code for video codec selection.
+- **JWT_TOKEN**: JSON Web Token for server authorization.
+- **HEADERS**: HTTP headers for server requests. Ensure that you replace the `Authorization` code in `HEADERS`. 
 
-Ensure that you replace the `Authorization` header in the `get_request_headers` function with your own **JWT token**.
 ## Usage
 
 Run the script by executing the following command in your terminal or command prompt:
@@ -46,7 +51,7 @@ Emotion data and notifications will be sent to the specified server.
 The script is designed to interact with a server for storing emotion data and sending notifications. Ensure that the server is configured to handle incoming data and notifications. The server endpoints used are **/emotion/aggressive** for emotion data and **/notification** for sending notifications.
 
 ### Notifications
-The system sends notifications when the number of unique happy customers reaches a certain threshold. Adjust the conditions in the script according to your preferences.
+The system sends notifications when the number of unique angry customers reaches a certain threshold. Adjust the conditions in the script according to your preferences.
 
 ### Exit
 Press 'q' to exit the video feed window and close the script.
