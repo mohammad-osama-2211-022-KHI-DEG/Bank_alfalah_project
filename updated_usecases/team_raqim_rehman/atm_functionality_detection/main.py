@@ -159,7 +159,7 @@ def Alert(timestamp):
     print("Endpoint response status code:", response.status_code)
 
 if __name__ == '__main__':
-    model_path = 'atm_functionality_best.pt'
+    model_path = 'new_best.pt'
     video_path = "YouCut_20240114_230531505.mp4"
     # video_path = "ATM_working.mp4"
     target_fps = 8
