@@ -1,4 +1,0 @@
-train: C:\Users\Muhammad Abdullah\demo\train
-val: C:\Users\Muhammad Abdullah\demo\val
-nc : 7
-names : ["person","cup","lcd","pc","chair","papers","laptop"]
