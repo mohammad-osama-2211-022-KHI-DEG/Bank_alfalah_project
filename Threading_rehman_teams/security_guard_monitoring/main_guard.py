@@ -4,8 +4,13 @@ from ultralytics import YOLO
 import os
 import requests
 from requests.auth import HTTPBasicAuth
+import logging
 
 global jwt_token
+
+
+logger = logging.getLogger(__name__)
+
 
 
 def get_jwt_token():
@@ -64,35 +69,32 @@ def send_data_to_endpoint(data, endpoint, jwt_token):
         print(f"Error sending data. Status code: {response.status_code}, Response: {response.text}")
 
 
-def load_model(model_path):
-    """
-    Load the YOLOv8 model.
-    """
-    return YOLO(model_path)
 
-def process_guard_frame_thread(model_guard_detection, model_guard_features, frame, guard_attire_statuses, previous_guard_attire_statuses):
-    # model_guard_detection = load_model(DETECTION_MODEL)
-    # model_guard_features = load_model(FEATURES_MODEL)
+def process_guard_frame_thread(frame, guard_attire_statuses, previous_guard_attire_statuses):
+    logger.info("!!! Guard search in progress !!! ")
+    model_guard_detection = YOLO('guard/guard_attire.pt')
+    model_guard_features = YOLO('guard/guard_features.pt')
 
     results_guard_detection = model_guard_detection(frame)
 
+
     for guard_index, guard_box in enumerate(results_guard_detection[0].boxes.xyxy):
-            x1, y1, x2, y2 = map(int, guard_box.tolist())
-            cropped_guard = frame[y1:y2, x1:x2]
+        x1, y1, x2, y2 = map(int, guard_box.tolist())
+        cropped_guard = frame[y1:y2, x1:x2]
 
-            # Check attire status of each guard using the second YOLO model
-            results_guard_features = model_guard_features(cropped_guard)
+        # Check attire status of each guard using the second YOLO model
+        results_guard_features = model_guard_features(cropped_guard)
 
-            # Initialize the uniform status for the current guard
-            current_uniform_state = 'IMPROPER'
+        # Initialize the uniform status for the current guard
+        current_uniform_state = 'IMPROPER'
 
-            # Check if cap and shoes are present in the attire of the current guard
-            class_ids = results_guard_features[0].boxes.cls.numpy()
-            if 0 in class_ids and 1 in class_ids:
-                current_uniform_state = 'PROPER'
+        # Check if cap and shoes are present in the attire of the current guard
+        class_ids = results_guard_features[0].boxes.cls.numpy()
+        if 0 in class_ids and 1 in class_ids:
+            current_uniform_state = 'PROPER'
 
-            # Append the uniform status of the current guard to the list
-            guard_attire_statuses.append(current_uniform_state)
+        # Append the uniform status of the current guard to the list
+        guard_attire_statuses.append(current_uniform_state)
 
     if guard_attire_statuses != previous_guard_attire_statuses:
 
@@ -103,13 +105,15 @@ def process_guard_frame_thread(model_guard_detection, model_guard_features, fram
             'timestamp': timestamp
         }
 
+        # Log the data being sent to the endpoint
+        logger.info(f"Data sent to endpoint: {data_to_push}")
 
         # Send data to the endpoint
-        #send_data_to_endpoint(data_to_push, target_endpoint, jwt_token)
+        # send_data_to_endpoint(data_to_push, target_endpoint, jwt_token)
 
-        #response = requests.post('http://13.233.56.158:5000/security-guard-tracking2?branchId=1', json=data_to_push)
-        #print(response.text)
-        #print(data_to_push)
+        # response = requests.post('http://13.233.56.158:5000/security-guard-tracking2?branchId=1', json=data_to_push)
+        # print(response.text)
+        # return data_to_push
 
     # Update previous status for the next iteration
     previous_guard_attire_statuses = guard_attire_statuses.copy()
@@ -117,7 +121,7 @@ def process_guard_frame_thread(model_guard_detection, model_guard_features, fram
     # Reset guard_attire_statuses for the next frame
     guard_attire_statuses = []
 
-
+    return previous_guard_attire_statuses, guard_attire_statuses
 
 
 def main():
@@ -130,8 +134,8 @@ def main():
 
 
     # Load the YOLOv8 models
-    model_guard_detection = YOLO('./guard_attire.pt')
-    model_guard_features = YOLO('./guard_features.pt')
+    model_guard_detection = YOLO('guard_attire.pt')
+    model_guard_features = YOLO('guard_features.pt')
 
     # Load video
     video_path = './2_guards.mp4'
@@ -209,4 +213,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
