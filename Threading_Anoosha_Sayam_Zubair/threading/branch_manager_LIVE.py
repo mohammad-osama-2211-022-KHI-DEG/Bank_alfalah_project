@@ -11,6 +11,7 @@ from mtcnn.mtcnn import MTCNN
 
 # Constants
 FILENAME = "webcam"
+MTCNN_CONFIDENCE = 0.97
 FACE_RECOGNITION_TOLERANCE = 0.4
 REAPPEARANCE_THRESHOLD = 1.0
 ID_DISAPPEAR_THRESHOLD = 1.0
@@ -47,7 +48,6 @@ face_details_dict = {}
 last_appearance_times = {}
 prev_elapsed = {}
 last_detected_times = {}
-
 
 # Load the known faces and embeddings saved in the last file
 try:
@@ -96,8 +96,6 @@ def update_existing_face_details(name, current_time):
         KeyError: If the name does not exist in the face_details_dict dictionary.
     """
     try:
-        # face_details_dict[name]['last_detected_time'] = current_time
-        # elapsed_frames = current_frame - face_details_dict[name]['start_frame']
         logging.info(f"detected_person: {name}")
         elapsed_time = current_time - face_details_dict[name]["last_detected_time"]
         prev_elapsed[name] = face_details_dict[name][
@@ -187,13 +185,14 @@ def process_face(faces, rgb, frame, font):
     """
     logger.debug("Processing frame in Branch Manager")
     for face in faces:
-        x, y, w, h = face["box"]
-        encoding = face_recognition.face_encodings(rgb, [(y, x + w, y + h, x)])[0]
-        matches = face_recognition.compare_faces(
-            data["encodings"], encoding, FACE_RECOGNITION_TOLERANCE
-        )
-        if True in matches:
-            handle_match(matches, x, y, w, h, frame, font)
+        if face["confidence"] > MTCNN_CONFIDENCE:
+            x, y, w, h = face["box"]
+            encoding = face_recognition.face_encodings(rgb, [(y, x + w, y + h, x)])[0]
+            matches = face_recognition.compare_faces(
+                data["encodings"], encoding, FACE_RECOGNITION_TOLERANCE
+            )
+            if True in matches:
+                handle_match(matches, x, y, w, h, frame, font)
 
 
 def handle_match(matches, x, y, w, h, frame, font):
@@ -272,8 +271,6 @@ def main():
             font = cv2.FONT_HERSHEY_DUPLEX
             rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             faces = face_detector.detect_faces(rgb)
-            # current_frame = video_capture.get(cv2.CAP_PROP_POS_FRAMES)
-            # logging.info(f'current_frame_of_video: {current_frame}')
             logging.info(
                 f"current_time_of_video: {datetime.fromtimestamp(time.time()).strftime('%I:%M:%S %p')}"
             )
