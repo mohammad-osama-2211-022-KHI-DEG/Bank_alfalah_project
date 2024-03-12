@@ -151,6 +151,8 @@ while True:
 cwt_frame.put(None)
 emotion_frame.put(None)
 branch_manager_frame.put(None)
+hnw_frame.put(None)
+area_manager_frame.put(None)
 
 # Wait for the capture thread to finish
 frame_thread.join()
