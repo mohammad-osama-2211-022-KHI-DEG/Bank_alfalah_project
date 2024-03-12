@@ -11,8 +11,9 @@ from keras.preprocessing.image import img_to_array
 from mtcnn.mtcnn import MTCNN
 
 # Constants
+MTCNN_CONFIDENCE = 0.97
 DISTANCE_THRESHOLD = 0.6
-CLASS_LABELS = ["Angry", "Happy", "not Happy", "not Happy", "not Happy"]
+CLASS_LABELS = ["Frustrated", "Happy", "not Happy", "not Happy", "not Happy"]
 VIDEO_FILE_PATH = "smile.mp4"
 EMOTION_DETECTION_MODEL_PATH = "Emotion_Detection.h5"
 SERVER_URL = "http://13.126.160.174:5000"
@@ -39,9 +40,8 @@ previous_emotions = {}
 happy_face_ids = set()
 anngery_face_ids = set()
 happy_count = 0
-Angry_count = 0
-previous_unique_Angry_count = 0
-
+Frustrated_count = 0
+previous_unique_Frustrated_count = 0
 
 face_id_counter = 0
 notification_counter = 0
@@ -85,13 +85,14 @@ def send_emotion_data(happy_count, unique_smile_count, footfall_number):
     return response
 
 
-def send_emotion_angry_data(Angry_count, unique_Angry_count, footfall_number):
+def send_emotion_frustrated_data(
+    Frustrated_count, unique_Frustrated_count, footfall_number
+):
     url = f"{SERVER_URL}/emotion/aggressive"
     headers = get_request_headers()
     current_datetime = datetime.now(timezone(timedelta(hours=5)))
     data = {
-        # "happyCount": Angry_count,
-        "noOfAggressivePeople": unique_Angry_count,
+        "noOfAggressivePeople": unique_Frustrated_count,
         "footfallNumber": footfall_number,
         "timestamp": current_datetime.strftime("%Y-%m-%dT%H:%M:%S") + str("+05:00"),
         "country": "pakistan",
@@ -113,51 +114,9 @@ def get_request_headers():
 
 # Initialize face detection
 detector = MTCNN()
+
+
 # Main function to process video frames
-# def main():
-#     # Initialize video capture object outside the loop
-#     video_capture = cv2.VideoCapture(VIDEO_FILE_PATH)
-#     while True:
-
-#         ret, frame = video_capture.read()
-#         if not ret:
-#             break
-#         happy_face_ids_current_frame = set()
-#         Angry_face_ids_current_frame = set()
-#         faces = detect_faces(frame)
-#         for face in faces:
-#             handle_face(face, frame, happy_face_ids_current_frame,Angry_face_ids_current_frame)
-#         handle_emotions(happy_face_ids_current_frame, len(faces),Angry_face_ids_current_frame)
-#         show_info(frame, happy_count, len(happy_face_ids_current_frame),len(Angry_face_ids_current_frame),len(faces))
-#         if cv2.waitKey(1) & 0xFF == ord('q'):
-#             break
-#     # Release video capture and close OpenCV windows properly
-#     video_capture.release()
-#     cv2.destroyAllWindows()
-
-# def main():
-#     # Initialize video capture object outside the loop
-#     video_capture = cv2.VideoCapture(VIDEO_FILE_PATH)
-#     while True:
-#         ret, frame = video_capture.read()
-#         if not ret:
-#             break
-
-#         processed_data = process_frame(frame)
-#         if processed_data is None:
-#             break
-
-#         show_info(frame, *processed_data)
-
-#         if cv2.waitKey(1) & 0xFF == ord('q'):
-#             break
-
-
-# # Release video capture and close OpenCV windows properly
-# video_capture.release()
-# cv2.destroyAllWindows()
-
-
 def main1():
     for frame in capture_webcam():
         processed_data = process_frame(frame)
@@ -181,74 +140,72 @@ def handle_face(
     face,
     frame,
     happy_face_ids_current_frame,
-    Angry_face_ids_current_frame,
+    Frustrated_face_ids_current_frame,
     foot_fall_ids_current_frame,
 ):
-    global face_id_counter, happy_count, Angry_count
-    x, y, w, h = face["box"]
-    x, y = abs(x), abs(y)
-    face_location = [(y, x + w, y + h, x)]
-    face_encodings = face_recognition.face_encodings(frame, face_location)
-    matched_id = None
-    min_distance = float("inf")
-    for person_id, encoding in face_encodings_dict.items():
-        distance = face_recognition.face_distance([encoding], face_encodings[0])[0]
-        if distance < DISTANCE_THRESHOLD and distance < min_distance:
-            matched_id = person_id
-            min_distance = distance
-    if matched_id is not None:
-        recognized_person_id = matched_id
-    else:
-        recognized_person_id = f"Face {face_id_counter}"
-        face_id_counter += 1
-        face_encodings_dict[recognized_person_id] = face_encodings[0]
-    cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
-    label = classify_emotion(frame, (x, y, w, h))
+    global face_id_counter, happy_count, Frustrated_count
+    if face["confidence"] > MTCNN_CONFIDENCE:
+        x, y, w, h = face["box"]
+        x, y = abs(x), abs(y)
+        face_location = [(y, x + w, y + h, x)]
+        face_encodings = face_recognition.face_encodings(frame, face_location)
+        matched_id = None
+        min_distance = float("inf")
+        for person_id, encoding in face_encodings_dict.items():
+            distance = face_recognition.face_distance([encoding], face_encodings[0])[0]
+            if distance < DISTANCE_THRESHOLD and distance < min_distance:
+                matched_id = person_id
+                min_distance = distance
+        if matched_id is not None:
+            recognized_person_id = matched_id
+        else:
+            recognized_person_id = f"Face {face_id_counter}"
+            face_id_counter += 1
+            face_encodings_dict[recognized_person_id] = face_encodings[0]
+        cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
+        label = classify_emotion(frame, (x, y, w, h))
 
-    # current foot fall
-    if recognized_person_id is not None:
-        foot_fall_ids_current_frame.add(recognized_person_id)
+        # current foot fall
+        if recognized_person_id is not None:
+            foot_fall_ids_current_frame.add(recognized_person_id)
 
-    if label == "Happy":
-        if recognized_person_id not in happy_face_ids_current_frame:
-            happy_face_ids_current_frame.add(recognized_person_id)
-        if previous_emotions.get(recognized_person_id, "") != "Happy":
-            happy_face_ids_current_frame.add(recognized_person_id)
-            happy_count += 1
+        if label == "Happy":
+            if recognized_person_id not in happy_face_ids_current_frame:
+                happy_face_ids_current_frame.add(recognized_person_id)
+            if previous_emotions.get(recognized_person_id, "") != "Happy":
+                happy_face_ids_current_frame.add(recognized_person_id)
+                happy_count += 1
 
-    if label == "Angry":
-        if recognized_person_id not in Angry_face_ids_current_frame:
-            Angry_face_ids_current_frame.add(recognized_person_id)
+        if label == "Frustrated":
+            if recognized_person_id not in Frustrated_face_ids_current_frame:
+                Frustrated_face_ids_current_frame.add(recognized_person_id)
 
-        if previous_emotions.get(recognized_person_id, "") != "Angry":
-            # Only increment happy_count when the label changes from not happy to happy
-            Angry_face_ids_current_frame.add(recognized_person_id)
-            Angry_count += 1
+            if previous_emotions.get(recognized_person_id, "") != "Frustrated":
+                # Only increment happy_count when the label changes from not happy to happy
+                Frustrated_face_ids_current_frame.add(recognized_person_id)
+                Frustrated_count += 1
 
-    # Update the previous emotion for the person
-    # previous_emotions[recognized_person_id] = label
-
-    label_position = (x, y - 10)
-    previous_emotions[recognized_person_id] = label
-    cv2.putText(
-        frame,
-        f"{recognized_person_id} - {label}",
-        label_position,
-        cv2.FONT_HERSHEY_SIMPLEX,
-        0.5,
-        (0, 0, 0),
-        8,
-        cv2.LINE_AA,
-    )
-    cv2.putText(
-        frame,
-        f"{recognized_person_id} - {label}",
-        label_position,
-        cv2.FONT_HERSHEY_SIMPLEX,
-        0.5,
-        (255, 255, 255),
-        2,
-    )
+        label_position = (x, y - 10)
+        previous_emotions[recognized_person_id] = label
+        cv2.putText(
+            frame,
+            f"{recognized_person_id} - {label}",
+            label_position,
+            cv2.FONT_HERSHEY_SIMPLEX,
+            0.5,
+            (0, 0, 0),
+            8,
+            cv2.LINE_AA,
+        )
+        cv2.putText(
+            frame,
+            f"{recognized_person_id} - {label}",
+            label_position,
+            cv2.FONT_HERSHEY_SIMPLEX,
+            0.5,
+            (255, 255, 255),
+            2,
+        )
 
 
 # Function to classify emotion using the loaded model
@@ -268,7 +225,7 @@ def classify_emotion(frame, face_coords):
 
 # Function to handle emotion detection and sending data
 def handle_emotions(
-    happy_face_ids_current_frame, footfall_number, Angry_face_ids_current_frame
+    happy_face_ids_current_frame, footfall_number, Frustrated_face_ids_current_frame
 ):
     global happy_count, notification_counter
     previous_footfall_number = 0
@@ -308,21 +265,21 @@ def handle_emotions(
         else:
             logging.error("Failed to get a response")
 
-    if (len(Angry_face_ids_current_frame) != previous_unique_Angry_count) or (
+    if (len(Frustrated_face_ids_current_frame) != previous_unique_Frustrated_count) or (
         footfall_number != previous_footfall_number
     ):
-        response = send_emotion_angry_data(
-            Angry_count, len(Angry_face_ids_current_frame), footfall_number
+        response = send_emotion_frustrated_data(
+            Frustrated_count, len(Frustrated_face_ids_current_frame), footfall_number
         )
 
-    previous_unique_happy_count = len(Angry_face_ids_current_frame)
+    previous_unique_happy_count = len(Frustrated_face_ids_current_frame)
     previous_footfall_number = footfall_number
 
 
 def process_frame(frame):
     logger.debug("Processing frame in Emotions")
     happy_face_ids_current_frame = set()
-    Angry_face_ids_current_frame = set()
+    Frustrated_face_ids_current_frame = set()
     foot_fall_ids_current_frame = set()
     faces = detect_faces(frame)
 
@@ -331,32 +288,32 @@ def process_frame(frame):
             face,
             frame,
             happy_face_ids_current_frame,
-            Angry_face_ids_current_frame,
+            Frustrated_face_ids_current_frame,
             foot_fall_ids_current_frame,
         )
         handle_emotions(
             happy_face_ids_current_frame,
             len(foot_fall_ids_current_frame),
-            Angry_face_ids_current_frame,
+            Frustrated_face_ids_current_frame,
         )
         show_info(
             frame,
             happy_count,
             len(happy_face_ids_current_frame),
-            len(Angry_face_ids_current_frame),
+            len(Frustrated_face_ids_current_frame),
             len(foot_fall_ids_current_frame),
         )
     return (
         happy_count,
         len(happy_face_ids_current_frame),
-        len(Angry_face_ids_current_frame),
-        len(faces),
+        len(Frustrated_face_ids_current_frame),
+        len(foot_fall_ids_current_frame),
     )
 
 
 # Function to display information on frames
 def show_info(
-    frame, happy_count, unique_smile_count, unique_Angry_count, footfall_number
+    frame, happy_count, unique_smile_count, unique_Frustrated_count, footfall_number
 ):
     cv2.putText(
         frame,
@@ -398,7 +355,7 @@ def show_info(
     )
     cv2.putText(
         frame,
-        f"Unique Frustrated Counts: {unique_Angry_count}",
+        f"Unique Frustrated Counts: {unique_Frustrated_count}",
         (20, 90),
         cv2.FONT_HERSHEY_SIMPLEX,
         0.5,
@@ -408,7 +365,7 @@ def show_info(
     )
     cv2.putText(
         frame,
-        f"Unique Frustrated Counts: {unique_Angry_count}",
+        f"Unique Frustrated Counts: {unique_Frustrated_count}",
         (20, 90),
         cv2.FONT_HERSHEY_SIMPLEX,
         0.5,
