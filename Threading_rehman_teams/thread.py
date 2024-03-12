@@ -9,7 +9,7 @@ import cv2
 import queue
 from atm_functionality_detection.main import process_frame
 from suspecious_activity.main import process_frame_thread
-from guard.main_guard import process_guard_frame_thread
+from security_guard_monitoring.main_guard import process_guard_frame_thread
 
 
 # For video
@@ -134,4 +134,3 @@ def process_frames():
 if __name__ == '__main__':
     # Start the frame processing thread
     main()
-
