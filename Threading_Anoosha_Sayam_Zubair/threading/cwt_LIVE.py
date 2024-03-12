@@ -8,16 +8,9 @@ import face_recognition
 import requests
 from mtcnn import MTCNN
 
-# Constants
-username = "usama.xloop"
-password = "Xloop@123"
-ip_address = "192.168.6.15"
-
-# url = f"rtsp://{username}:{password}@{ip_address}:554/cam/realmonitor?channel=1&subtype=1"
-
 # FILENAME = "web_cam"
 FILENAME = "CWT_LIVE_LEAP"
-CONFIDENCE_THRESHOLD = 0.60
+CONFIDENCE_THRESHOLD = 0.97
 FACE_RECOGNITION_TOLERANCE = 0.50
 TIME_THRESHOLD = 1.0
 ID_DISAPPEAR_THRESHOLD = 1.0
@@ -34,7 +27,6 @@ HEADERS = {
     "Authorization": JWT_TOKEN,
     "X-SERVER-TO-SERVER": "true",
 }
-
 
 # Set up logging
 logging.basicConfig(
@@ -171,8 +163,6 @@ def update_existing_face_details(face_id, current_time):
         current_time (float): The current time of the video.
     """
     try:
-        # face_details_dict[face_id]['last_detected_time'] = current_time
-        # elapsed_frames = current_frame - face_details_dict[face_id]['start_frame']
         logging.info(f"face id: {face_id}")
         elapsed_time = current_time - face_details_dict[face_id]["last_detected_time"]
         prev_elapsed[face_id] = face_details_dict[face_id][
@@ -203,7 +193,6 @@ def check_and_generate_alerts():
             "server_id"
         )  # Extract server_id from face_details_dict
 
-        # if elapsed_time_since_last_detected > ID_DISAPPEAR_THRESHOLD:
         if (
             elapsed_time_since_last_detected > ID_DISAPPEAR_THRESHOLD
             and server_id is not None
@@ -238,7 +227,7 @@ def check_and_generate_alerts():
             )
 
 
-def process_faces(faces, frame, rgb):  # logger=None
+def process_faces(faces, frame, rgb):
     logger.debug("Processing frame in CWT")
     for face in faces:
         x, y, width, height = face["box"]
@@ -249,8 +238,6 @@ def process_faces(faces, frame, rgb):  # logger=None
             )
             if len(encodings) > 0:
                 process_encodings(encodings, frame, x, y, width, height)
-        # if logger:
-        #     logger.debug("Face processed successfully.")
 
 
 def process_encodings(encodings, frame, x, y, width, height):
