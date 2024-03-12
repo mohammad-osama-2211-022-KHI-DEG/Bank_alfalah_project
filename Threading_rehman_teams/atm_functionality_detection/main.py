@@ -49,7 +49,7 @@ def detect_atm_usage(model_path, video_path, target_fps):
     cap.release()
 
 def process_frame(frame, model, atm_detected, total_working_count, total_notworking_count, counter, url, headers):
-    logger.info('Processing frame...')
+    logger.info('!!! ATM Functionality check in progress !!!')
     
     results = model.track(source=frame, show=False, project='./result', tracker="bytetrack.yaml", conf=0.4)
     complainBoxAvailable = False
