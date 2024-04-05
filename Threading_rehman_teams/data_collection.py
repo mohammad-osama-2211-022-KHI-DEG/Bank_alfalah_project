@@ -4,7 +4,7 @@ import os
 
 # Function to process a single frame's results and save them
 def annotate_frame(frame_count, frame, results):
-    if len(results) > 0:
+    if len(results[0].boxes.xyxyn) > 0:
         # Create directories if they don't exist
         os.makedirs('./images/', exist_ok=True)
         os.makedirs('./labels/', exist_ok=True)
