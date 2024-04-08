@@ -1,0 +1,6 @@
+opencv_python==4.6.0.66
+opencv_python_headless==4.8.0.74
+Pillow==9.5.0
+Pillow==9.0.1
+Pillow==10.3.0
+ultralytics==8.0.190
