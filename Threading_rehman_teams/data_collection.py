@@ -26,9 +26,32 @@ def annotate_frame(frame_count, frame, results):
 # ------------------------------------FUNCTION TO BE USED FOR ANNOTATION----------------------------------------------
 
 
+# ------------------------------------FUNCTION TO BE USED FOR BB images----------------------------------------------
+def save_images_with_boxes(frame_count, frame, results):
+    if len(results[0].boxes.xyxyn) > 0:
+        bb_images_dir = './bb_images/'
+        os.makedirs(bb_images_dir, exist_ok=True)
+
+        for i, result in enumerate(results):
+            image = frame.copy()
+            boxes = result.boxes
+            for box in boxes:
+                b = box.xyxy  # get box coordinates in (left, top, right, bottom) format
+                c = box.cls
+                x1, y1, x2, y2 = map(int, [b[0][0], b[0][1], b[0][2], b[0][3]])
+                cv2.rectangle(image, (x1, y1), (x2, y2), (0, 255, 0), 2)
+            cv2.imwrite(f'{bb_images_dir}/frame_{frame_count}_obj_{model.names[int(c)]}.jpg', image)
+# ------------------------------------FUNCTION TO BE USED FOR BB images----------------------------------------------
+
+'''
+Code below will be used for demonstration purposes.
+functions above are ready to be integrated in the refactored code
+'''
+
+
 # Initialize YOLO model and video capture
-model = YOLO('atm_cleanliness_best.pt')
-video_path = 'videos/cleanliness.mp4'  # Replace with your video path
+model = YOLO('suspecious_updated.pt')
+video_path = 'videos/suspecious.mp4'  # Replace with your video path
 cap = cv2.VideoCapture(video_path)
 
 frame_count = 0
@@ -50,6 +73,9 @@ while cap.isOpened():
             
     # Process the frame results
     annotate_frame(frame_count, frame, results)
+    
+    save_images_with_boxes(frame_count, frame, results)
+
 
     frame_count += 1
 
