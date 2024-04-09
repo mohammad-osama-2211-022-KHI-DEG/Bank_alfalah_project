@@ -6,6 +6,11 @@ from PIL import Image, ImageTk
 
 logging.basicConfig(level=logging.DEBUG)
 
+'''
+sudo apt-get install python3-tk to install Tkinter
+
+'''
+
 class ImageViewer:
     def __init__(self, master, source_folder, bb_folder):
         self.master = master
@@ -23,7 +28,7 @@ class ImageViewer:
         self.next_button = tk.Button(master, text="Next", command=self.show_next_image)
         self.next_button.pack(side=tk.RIGHT)
 
-        self.copy_button = tk.Button(master, text="Copy to 'requires annotation'", command=self.copy_image)
+        self.copy_button = tk.Button(master, text="Requires annotation", command=self.copy_image)
         self.copy_button.pack()
 
         self.show_image()
@@ -59,7 +64,13 @@ class ImageViewer:
         logging.debug("Copying image...")
         image_filename = os.path.splitext(self.image_files[self.current_index])[0]  # Get filename without extension
         source_path = os.path.join(self.source_folder, image_filename + ".jpg")  # Assume source images have .jpg extension
-        dest_path = os.path.join('requires annotation', image_filename + ".jpg")  # Assume destination folder is 'requires annotation'
+        dest_folder = 'requires_annotation'
+        dest_path = os.path.join(dest_folder, image_filename + ".jpg")  # Assume destination folder is 'requires annotation'
+
+        # Create the destination folder if it doesn't exist
+        if not os.path.exists(dest_folder):
+            os.makedirs(dest_folder)
+
         shutil.copy(source_path, dest_path)
         logging.info(f"Image {image_filename} copied to 'requires annotation' folder.")
 
